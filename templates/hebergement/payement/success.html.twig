@@ -2,7 +2,7 @@
 
 {% extends 'base.html.twig' %}
 
-{% block title %}Flore{% endblock %}
+{% block title %}Reçus{% endblock %}
 
 {% block body %}
 
@@ -45,29 +45,27 @@
                             <br>
                             <div class="container mt-5 vc_row small">
                                 <div class="card">
-                                <div class="card-header">
-                                    <h5 class="card-title">Confirmation de Réservation</h5>
+                                    <div class="card-header">
+                                        <h5 class="card-title">Réçus de Réservation</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text">Bonjour,</p>
+                                        <p class="card-text">Nous vous remercions pour votre réservation à <span id="hotel"></span>. Voici les détails de votre réservation :</p>
+                                        <ul class="list-group">
+                                        <li class="list-group-item">Label: {{ paymentLabel }}</li> 
+                                        <li class="list-group-item">Option de payement : {{ selectLabel }}</li>
+                                        <li class="list-group-item">Montant total : <span id="montant">{{ totalPrice }}</span>$</li>  
+                                        <li class="list-group-item">Numéro de carte de crédit : 4242 4242 4242 4242</li>
+                                        </ul>
+                                        <p class="card-text">Votre réservation est confirmée pour les dates demandées. Veuillez noter que votre carte de crédit sera débitée du montant total à l'arrivée.</p>
+                                        <p class="card-text">Si vous avez des questions ou des demandes spéciales, n'hésitez pas à nous contacter à <span id="email"></span> ou par téléphone au <span id="telephone"></span>.</p>
+                                        <p class="card-text">Nous sommes impatients de vous accueillir à <b>Isalo Rock Lodge.</b></p>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <p class="card-text">Bonjour <span id="nom"></span>,</p>
-                                    <p class="card-text">Nous vous remercions pour votre réservation à <span id="hotel"></span>. Voici les détails de votre réservation :</p>
-                                    <ul class="list-group">
-                                    <li class="list-group-item">Nombre de chambres : <span id="nbChambres"></span></li>
-                                    <li class="list-group-item">Nombre de personnes : <span id="nbPersonnes"></span></li>
-                                    <li class="list-group-item">Dates d'intervalle : <span id="dates"></span></li>
-                                    <li class="list-group-item">Montant total : <span id="montant"></span></li>
-                                    <li class="list-group-item">Nom du titulaire de la réservation : <span id="nomTitulaire"></span></li>
-                                    <li class="list-group-item">Numéro de carte de crédit : <span id="creditCard"></span></li>
-                                    </ul>
-                                    <p class="card-text">Votre réservation est confirmée pour les dates demandées. Veuillez noter que votre carte de crédit sera débitée du montant total à l'arrivée.</p>
-                                    <p class="card-text">Si vous avez des questions ou des demandes spéciales, n'hésitez pas à nous contacter à <span id="email"></span> ou par téléphone au <span id="telephone"></span>.</p>
-                                    <p class="card-text">Nous sommes impatients de vous accueillir à <span id="hotel"></span>.</p>
-                                </div>
-                                </div>
-                            </div><p>Total Price: {{ totalPrice }}</p>
-<p>Select Label: {{ selectLabel }}</p>
-<p>Payment Label: {{ paymentLabel }}</p>
-    <a href="{{ path('generer_recu', {'totalPrice': totalPrice, 'selectLabel': selectLabel, 'paymentLabel': paymentLabel}) }}" class="btn btn-primary">Générer le reçu</a>
+                            </div>   
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="{{ path('generer_recu', {'totalPrice': totalPrice, 'selectLabel': selectLabel, 'paymentLabel': paymentLabel}) }}" class="btn btn-primary">Imprimer la reçu</a>
+                            </div>
                         </div>
                         <!--/Main Page Content -->              
                                 

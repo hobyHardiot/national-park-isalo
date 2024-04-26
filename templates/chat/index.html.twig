@@ -1,12 +1,26 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Hello ChatController!{% endblock %}
-{% block style %}   
-<link rel="stylesheet" href="https://webchat-styler-css.botpress.app/prod/aa6c5d77-8186-4659-a9d9-0547a7100bd6/v8339/style.css">  
+{% block style %}      
+
 {% endblock %}
 {% block body %}   
-
 <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/cd221827-4375-48ca-9d46-f829179fddbe/webchat/config.js" defer></script> 
-
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "30a91ab2-60fe-47f2-bddd-1f515d28a090",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "30a91ab2-60fe-47f2-bddd-1f515d28a090",
+      "webhookId": "3e6a743c-2900-46c7-b07e-b9753ca158ba",
+      "lazySocket": true,
+      "themeName": "prism",
+      "frontendVersion": "v1",
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#2563eb"
+  });
+</script>
 {% endblock %}
