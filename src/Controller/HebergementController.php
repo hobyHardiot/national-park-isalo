@@ -103,7 +103,7 @@ class HebergementController extends AbstractController
         $selectLabel = $request->query->get('selectLabel');
         $paymentLabel = $request->query->get('paymentLabel');
         $dompdf = new Dompdf();
-        $html = $this->renderView('hebergement/payement/success.html.twig', [
+        $html = $this->renderView('hebergement/payement/pdf.html.twig', [
             'totalPrice' => $totalPrice,
             'selectLabel' => $selectLabel,
             'paymentLabel' => $paymentLabel

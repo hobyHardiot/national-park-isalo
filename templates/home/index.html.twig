@@ -238,45 +238,55 @@
                                     
                                         <div id="message"></div>
                                     
-                                        <form method="post" action="contact.php" name="contactform" id="contactform">                             
+                                        <form method="post" action="{{path('app_home')}}" >                             
                                             <div class="name-box has-animation" data-delay="100">        
-                                                <input name="name" type="text" id="name" size="30" value="" placeholder="Votre nom"><label class="input_label"></label>
+                                                <input required name="name" type="text" id="name" size="30" value="" placeholder="Votre nom"><label class="input_label"></label>
                                             </div>                                                        
                                             <div class="email-box has-animation" data-delay="150">
-                                                <input name="email" type="text" id="email" size="30" value="" placeholder="Votre email"><label class="input_label"></label>
+                                                <input required name="email" type="text" id="email" size="30" value="" placeholder="Votre email"><label class="input_label"></label>
                                             </div>                            
                                             <div class="message-box has-animation" data-delay="100">
-                                                <textarea name="comments" cols="40" rows="4" id="comments" placeholder="Votre message" ></textarea><label class="input_label slow"></label>
+                                                <textarea required name="comments" cols="40" rows="4" id="comments" placeholder="Votre message" ></textarea><label class="input_label slow"></label>
                                             </div>                             
                                             <div class="button-box has-animation" data-delay="100">             
 
                                                 <div class="d-flex justify-content-center">
                                                     <div class="button-box w-25 has-animation" data-delay="100">             
                                                         <div class="clapat-button-wrap parallax-wrap hide-ball">
-                                                            <div class="clapat-button parallax-element"> 
-                                                                <a href="{{path('app_hebergement')}}">
-                                                                    <button class="btn text-white px-3 py-1" style="background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;">Envoyer</button>
-                                                                </a>
+                                                            <div class="clapat-button parallax-element">  
+                                                                    <button type="submit" class="btn text-white px-3 py-1" style="background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;">Envoyer</button>
                                                             </div>
                                                         </div> 
                                                     </div>
                                                 </div> 
                                             </div>
                                         </form>                        
-                                                                
+                                                 <script>
+                                                    document.addEventListener("DOMContentLoaded", function() {
+                                                        var form = document.querySelector('form');
+                                                        form.addEventListener('submit', function(event) {
+                                                            event.preventDefault(); // Empêche l'envoi du formulaire
+                                                            var messageDiv = document.getElementById('message');
+                                                            messageDiv.innerText = "Votre message a été envoyé avec succès!";
+                                                            messageDiv.style.display = 'block';
+                                                              setTimeout(function() {
+                                                            window.location.reload();
+                                                        }, 3000);
+                                                        });
+                                                    });
+                                                </script>
+               
                                     </div>
                                     <!--/Contact Formular -->
                                     
-                                </div>  
-                                <div class="vc_row text-align-center row_padding_top small"> 
-                                    <a href="#vers">bonjour</a><br><br><br><br><br><br><br><br>
-                                    <div id="vers">bonjour</div>
-                                </div>  
+                                </div>   
+                                <div id="message" style="display: none;"></div>
+
                                 <div class="vc_row text-align-center row_padding_top small">
                                             
                                     <div class="one_third has-animation"  data-delay="100">
                                         <div class="clapat-icon">
-                                            <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
+                                            <img class="img-fluid w-25" src="{{asset('images/svg/email-8-svgrepo-com.svg')}}">
                                         </div>
                                     
                                         <h6><a class="text-dark" href="mailto:cvecotisalo@outlook.com">cvecotisalo@outlook.com </a></h6>
@@ -285,7 +295,7 @@
                                     
                                     <div class="one_third has-animation"  data-delay="200">
                                         <div class="clapat-icon">
-                                            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                            <img class="img-fluid w-25" src="{{asset('images/svg/location-svgrepo-com.svg')}}">
                                         </div>
                                     
                                         <h6 class="text-dark">BP. 6 Ranohira – 313 Ihosy</h6>
@@ -294,7 +304,7 @@
                                     
                                     <div class=" one_third last has-animation"  data-delay="300">
                                         <div class="clapat-icon">
-                                            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                                            <img class="img-fluid w-25" src="{{asset('images/svg/phone-number-svgrepo-com.svg')}}">
                                         </div>
                                     
                                         <h6><a class="text-dark" href="tel:+261320940236">+261 32 09 402 36</a></h6>
