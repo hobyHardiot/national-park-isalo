@@ -1,0 +1,171 @@
+<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> </b></i>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reçu de Réservation</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    Reçu de Réservation d'Hôtel
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Confirmation de Réservation</h5>
+                    <p class="card-text">Merci pour votre réservation. Veuillez trouver ci-dessous les détails de votre séjour.</p>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Nom du Client:</th>
+                                <td> nom_de_personne </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Nombre de Chambres:</th>
+                                <td> nombre_de_chambre </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Nombre de Personnes:</th>
+                                <td> nombre_de_personne </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Intervalle de Date:</th>
+                                <td> intervalle_de_date </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Montant Total:</th>
+                                <td> argent  €</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Numéro de Carte de Crédit:</th>
+                                <td>**** **** ****  numero_de_credit_card | slice:-4 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-primary">Imprimer le Reçu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+Objet : Confirmation de réservation
+
+Cher(e) [Nom de personne],
+
+Nous avons le plaisir de confirmer votre réservation chez [Nom de l'établissement]. Veuillez trouver ci-dessous les détails de votre séjour :
+
+Nom du titulaire de la réservation : [Nom de personne]
+Nombre de chambre(s) réservée(s) : [Nombre de chambre]
+Nombre de personne(s) : [Nombre de personne]
+Intervalle de date : Du [Date d'arrivée] au [Date de départ]
+Montant total : [Argent] [Devise]
+Mode de paiement : Carte de crédit
+Numéro de carte de crédit : xxxx-xxxx-xxxx-[4 derniers chiffres du numéro de credit card]
+Type de chambre : [Type de chambre, ex. : Standard, Deluxe, Suite]
+Services supplémentaires : [Liste des services supplémentaires, si applicable]
+
+Nous vous rappelons que le check-in se fait à partir de [Heure d'arrivée] et le check-out doit être effectué avant [Heure de départ]. Veuillez noter que toute annulation doit être effectuée avant [Délai d'annulation] pour éviter des frais.
+
+Pour toute demande spécifique ou modification de votre réservation, n'hésitez pas à nous contacter directement.
+
+Nous vous remercions de votre confiance et nous réjouissons de vous accueillir très prochainement.
+
+Cordialement,
+
+[Nom du responsable]
+[Poste du responsable]
+[Nom de l'établissement]
+[Adresse de l'établissement]
+[Téléphone de l'établissement]
+[Email de l'établissement]
+[Site web de l'établissement]
+
+P.S. : Nous vous encourageons à consulter notre politique d'annulation et nos mesures sanitaires en vigueur pour assurer la sécurité et le bien-être de nos clients et de notre personnel.
+
+
+
+
+<html lang="en">
+<head>
+    <title>Jquery - Bootstrap Daterangepicker Example</title>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap/latest/css/bootstrap.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+</head>
+<body>
+
+
+<input type="text" class="daterange" />
+
+
+
+
+</body>
+</html>
+
+* { font-size: 12px; }
+.daterange { width: 15em; }
+
+
+$('.daterange').daterangepicker({
+    "showWeekNumbers": true,
+    "showISOWeekNumbers": true,
+    "locale": {
+        "format": "YYYY-MM-DD",
+        "separator": " ~ ",
+        "applyLabel": "적용",
+        "cancelLabel": "취소",
+        "fromLabel": "시작",
+        "toLabel": "종료",
+        "customRangeLabel": "Custom",
+        "weekLabel": "주",
+        "daysOfWeek": [
+            "일",
+            "월",
+            "화",
+            "수",
+            "목",
+            "금",
+            "토"
+        ],
+        "monthNames": [
+            "1월",
+            "2월",
+            "3월",
+            "4월",
+            "5월",
+            "6월",
+            "7월",
+            "8월",
+            "9월",
+            "10월",
+            "11월",
+            "12월"
+        ],
+        "firstDay": 1
+    },
+    "alwaysShowCalendars": true,
+    "startDate": "2019-09-11",
+    "endDate": "2019-09-17",
+    "opens": "left"
+}, function(start, end, label) {
+  console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+});

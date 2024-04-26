@@ -1,0 +1,219 @@
+<!DOCTYPE html> 
+
+<html lang="en"   data-assets-path="../../assets/">
+ 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> 
+ 
+<link rel="stylesheet" href="{{ asset('assets/map/mapbox-gl.css') }}" /> 
+<link rel="stylesheet" href="{{ asset('assets/map/app-logistics-fleet.css') }}" />
+ 
+<script src="{{ asset('assets/map/helpers.js') }}"></script> 
+<script src="{{ asset('assets/map/template-customizer.js') }}"></script> 
+<script src="{{ asset('assets/map/config.js') }}"></script>
+
+<link rel="stylesheet" href="{{ asset('assets/map/corex.css') }}" /> 
+<link rel="stylesheet" href="{{ asset('assets/map/theme-default.css') }}" /> 
+<link rel="stylesheet" href="{{ asset('assets/map/perfect-scrollbar.css') }}" /> 
+    
+</head>
+
+<body>
+
+     
+  <div class="content-wrapper">  
+    <div class="container-xxl flex-grow-1 container-p-y"> 
+      <div class="shadow-sm overflow-hidden">
+
+        <!-- Map Menu Wrapper -->
+        <div class="d-flex app-logistics-fleet-wrapper">
+
+          <!-- Map Menu Button when screen is < md -->
+          <div class="flex-shrink-0 position-fixed m-4 d-md-none w-auto z-1">
+            <button class="btn btn-label-white border border-2 z-2 p-2" data-bs-toggle="sidebar" data-overlay="" data-target="#app-logistics-fleet-sidebar"><i class="bx bx-menu"></i></button>
+          </div>
+
+          <!-- Map Menu -->
+          <div class="app-logistics-fleet-sidebar col h-100" id="app-logistics-fleet-sidebar"> 
+            <!-- Sidebar when screen < md -->
+            
+            <div class="card-body p-0 logistics-fleet-sidebar-body">
+              <!-- Menu Accordion -->
+              <div class="accordion p-2" id="fleet" data-bs-toggle="sidebar" data-overlay data-target="#app-logistics-fleet-sidebar">
+                <!-- Fleet 1 --> 
+                <div class="accordion-item shadow-none border-0 active mb-0" id="fl-1">
+                  <div class="accordion-header" id="fleetOne">
+                    <div role="button" class="accordion-button shadow-none" data-bs-toggle="collapse" data-bs-target="#fleet1" aria-expanded="true" aria-controls="fleet1">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-wrapper">
+                          <div class="avatar me-3">
+                            <span class="avatar-initial p-1 rounded-circle bg-label-secondary"><img src="https://cdn-icons-png.flaticon.com/512/1055/1055395.png"></span>
+                          </div>
+                        </div>
+                        <span class="d-flex flex-column">
+                          <span class="h6 mb-0">Emplacement</span>
+                          <span class="text-muted">dans la commune de Ranohira</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="fleet1" class="accordion-collapse collapse show" data-bs-parent="#fleet">
+
+                    <div class="accordion-body pt-0 pb-0"> 
+                      <ul class="timeline ps-0 mt-0">
+                        <li class="timeline-item ps-4 border-left-dashed">
+                          <span class="timeline-indicator-advanced timeline-indicator-success border-0 shadow-none">
+                            <i class='bx bx-check-circle'></i>
+                          </span>
+                          <div class="timeline-event ps-0 pb-0">
+                            <div class="timeline-header">
+                              <small class="text-success text-uppercase fw-medium">Situé</small>
+                            </div> 
+                            <p class="text-muted mb-0" style="text-align:left">à 269 km de Fianarantsoa</p>
+                            <p class="text-muted mb-0" style="text-align:left">à 80 km d’ Ihosy</p>
+                          </div>
+                        </li>
+                        <li class="timeline-item ps-4 border-left-dashed">
+                          <span class="timeline-indicator-advanced timeline-indicator-success border-0 shadow-none">
+                            <i class='bx bx-check-circle'></i>
+                          </span>
+                          <div class="timeline-event ps-0 pb-0">
+                            <div class="timeline-header">
+                              <small class="text-success text-uppercase fw-medium">Region</small>
+                            </div> 
+                            <span class="h6 mb-0" style="position:absolute;left:0">Ihorombe</span>
+                          </div>
+                        </li>
+                        <li class="timeline-item ps-4 border-transparent">
+                          <span class="timeline-indicator-advanced timeline-indicator-primary border-0 shadow-none">
+                            <i class='bx bx-map mt-1'></i>
+                          </span>
+                          <div class="timeline-event ps-0 pb-0">
+                            <div class="timeline-header">
+                              <small class="text-primary text-uppercase fw-medium">Burreau</small>
+                            </div> 
+                            <span class="h6 mb-0" style="position:absolute;left:0">BP. 6 Ranohira </span><br>
+                            <p class="text-muted mb-0" style="text-align:left">313 Ihosy</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-header border-0 pt-4 pb-2 d-flex justify-content-between">
+                  <span class="mb-0 h5">Comment s'y rendre?</span>
+                  <!-- Sidebar close button -->
+                  <i class="bx bx-x bx-sm cursor-pointer close-sidebar d-md-none" data-bs-toggle="sidebar" data-overlay="" data-target="#app-logistics-fleet-sidebar"></i>
+                </div>
+                <!-- Fleet 2 -->
+                <div class="accordion-item shadow-none border-0 mb-0" id="fl-2">
+                  <div class="accordion-header" id="fleetTwo">
+                    <div role="button" class="accordion-button collapsed shadow-none" data-bs-toggle="collapse" data-bs-target="#fleet2" aria-expanded="true" aria-controls="fleet2">
+      
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-wrapper">
+                          <div class="avatar me-3">
+                            <span class="avatar-initial   rounded px-1 bg-label-secondary"><img src="https://cdn-icons-png.flaticon.com/512/10473/10473321.png"></span>
+                          </div>
+                        </div>
+                        <span class="d-flex flex-column">
+                          <span class="h6 mb-0">Antananarivo - Ranohira</span>
+                          <span class="text-muted">701 Km</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="fleet2" class="accordion-collapse collapse" data-bs-parent="#fleet">
+
+                    <div class="accordion-body pt-0 pb-0">  
+                      <ul class="timeline ps-0 mt-0">
+                        <li class="timeline-item ps-4 border-left-dashed">
+                          <span class="timeline-indicator-advanced timeline-indicator-success border-0 shadow-none">
+                            <i class='bx bx-check-circle'></i>
+                          </span>
+                          <div class="timeline-event ps-0 pb-0">
+                            <div class="timeline-header">
+                              <small class="text-success text-uppercase fw-medium">Trajet</small>
+                            </div>
+                            <h6 class="mb-1"></h6>
+                            <span class="h6 mb-0" style="position:absolute;left:0">15 heures de route</span><br>
+                            <p class="text-muted mb-0" style="text-align:left">Route goudronnée</p>
+                          </div>
+                        </li>  
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fleet 3 -->
+                <div class="accordion-item shadow-none border-0 mb-0" id="fl-3">
+                  <div class="accordion-header" id="fleetThree">
+                    <div role="button" class="accordion-button collapsed shadow-none" data-bs-toggle="collapse" data-bs-target="#fleet3" aria-expanded="true" aria-controls="fleet3">
+
+                      <div class="d-flex align-items-center">
+                        <div class="avatar-wrapper">
+                          <div class="avatar me-3">
+                            <span class="avatar-initial rounded px-1   bg-label-secondary"><img src="https://cdn-icons-png.flaticon.com/512/10473/10473321.png"></span>
+                          </div>
+                        </div>
+                        <span class="d-flex flex-column">
+                          <span class="h6 mb-0">Tuleàr - Ranohira</span>
+                          <span class="text-muted">250 Km</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="fleet3" class="accordion-collapse collapse" data-bs-parent="#fleet">
+                    <div class="accordion-body pt-0 pb-0">  
+                      <ul class="timeline ps-0 mt-0">
+                        <li class="timeline-item ps-4 border-left-dashed">
+                          <span class="timeline-indicator-advanced timeline-indicator-success border-0 shadow-none">
+                            <i class='bx bx-check-circle'></i>
+                          </span>
+                          <div class="timeline-event ps-0 pb-0">
+                            <div class="timeline-header">
+                              <small class="text-success text-uppercase fw-medium">Trajet</small>
+                            </div>
+                            <h6 class="mb-1"></h6>
+                            <span class="h6 mb-1" style="position:absolute;left:0">4 heures de route</span><br>
+                            <p class="text-muted mb-0" style="text-align:left">Route goudronnée</p>
+                          </div>
+                        </li>  
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fleet 4 -->
+                <div id="fl-4">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mapbox Map container -->
+          <div class="col h-100 map-container">
+            <!-- Map -->
+            <div id="map" class="w-100 h-100"></div>
+          </div>
+
+          <!-- Overlay Hidden -->
+          <div class="app-overlay d-none"></div>
+        </div>
+      </div> 
+    </div>   
+  </div>   
+  
+  
+  <script src="{{ asset('assets/map/jquery.js') }}"></script> 
+  <script src="{{ asset('assets/map/bootstrap.js') }}"></script>  
+  <script src="{{ asset('assets/map/perfect-scrollbar.js') }}"></script> 
+  <script src="{{ asset('assets/map/mapbox-gl.js') }}"></script> 
+  <script src="{{ asset('assets/map/main.js') }}"></script> 
+  <script src="{{ asset('assets/map/app-logistics-fleet.js') }}"></script>
+  
+</body>
+
+ 
+</html>
+ 
+

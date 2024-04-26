@@ -1,0 +1,217 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Flore{% endblock %}
+
+{% block body %}
+
+	<main>		
+        <!-- Preloader -->
+        <div class="preloader-wrap">
+            <div class="outer">
+                <div class="inner">
+                    <div class="percentage" id="precent"></div>
+                    <div class="trackbar">
+                        <div class="loadbar"></div>
+                    </div>
+                    <div class="headphones"></div>
+                    <div class="headphones-text">Turn up the volume for the<br>best experience</div>
+                </div>
+            </div>
+        </div>
+        <!--/Preloader -->    
+        
+        <div class="cd-index cd-main-content">
+    
+        <!-- Page Content -->
+        <div id="page-content" class="">       
+             
+            
+            {% include 'layouts/navbar.html.twig' %}
+            <!-- Content Scroll -->
+            <div id="content-scroll">
+            
+            
+                <!-- Main -->
+                <div id="main">
+                
+
+                    <div id="hero" class="has-image">
+                        <div id="hero-styles" class="parallax-onscroll">
+                            <div id="hero-caption">
+                                <div class="inner">
+                                    <div class="hero-subtitle text-white">du parc national Isalo</div>    
+                                    <div class="hero-title text-white">
+                                        <span>L</span>
+                                        <span>E</span>
+                                        <span>S</span>
+                                        <span> </span>
+                                        <span>P</span>
+                                        <span>A</span>
+                                        <span>Y</span>
+                                        <span>S</span>
+                                        <span>A</span>
+                                        <span>G</span>
+                                        <span>E</span>	
+                                        <span>S</span>	
+                                    </div>                                
+                                </div>
+                            </div>                                            
+                        </div>
+                    </div>
+                    <div id="hero-bg-wrapper">
+                        <div id="hero-image-parallax">
+                            <div id="hero-bg-image" style="background-image:url({{asset('images/paysage.jpg')}})"></div>
+                        </div>
+                    </div>     
+                         
+                    
+                    <!-- Main Content -->
+                    <div id="main-content" class="light-content">
+                        <!-- Main Page Content -->
+                        <div id="main-page-content">	 
+
+                            <div class="vc_row row_padding_top row_padding_bottom text-align-center"> 
+                                 
+                                <div class="one_fourth"></div>
+                                    
+                                <div class="two_fourth">
+                                    <h2 class="has-mask">Massif érodé sur un vaste lit d'herbes parsemé de forêt de "tapia" avec des formes du terrain attaqué par l'érosion.</h2>
+                                </div>
+                                
+                            </div>
+                            <div class="vc_row full has-animation" data-delay="100">
+                                    
+                                <!-- Collage -->
+                                <div id="justified-grid">
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">                          
+                                        <a class="image-link" href="images/paysages/paysage-1.jpg">
+                                            <img src="images/paysages/paysage-1.jpg" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-2.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-2.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-3.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-3.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-4.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-4.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-5.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-5.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-6.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-6.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">               
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-7.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-7.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">                          
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-8.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-8.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- Collage item with pop-up -->
+                                    <div class="collage-thumb">                          
+                                        <a class="image-link" href="{{asset('images/paysages/paysage-9.jpg')}}">
+                                            <img src="{{asset('images/paysages/paysage-9.jpg')}}" alt="img" />
+                                            <div class="thumb-info">Caption Image</div>
+                                        </a>
+                                    </div>
+                                     
+                                    
+                                    
+                                </div>
+                                <!--/Collage -->
+                                
+                            </div>   
+
+                        </div>
+                        <!--/Main Page Content -->              
+                                
+                    </div> 
+                    <div class="vc_row row_padding_top small text-align-center"> 
+                        <p class="has-animation fs-5" data-delay="10">Voir egalement</p>
+                    </div>
+                    <div class="vc_row small mb-5 justify-content-center row row-cols-1 row-cols-sm-2 g-4" style="gap:20px">
+                        <a href="{{path('app_flore')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
+                                <div class="feature-icon-small d-inline-flex align-items-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <svg class="bi" width="1em" height="1em">
+                                    <use xlink:href="#collection"></use>
+                                    </svg>
+                                </div>
+                                <h4 class="fw-semibold mb-0">Les flores</h4>  
+                        </a>
+                        <a href="{{path('app_faune')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
+                            <div class="feature-icon-small d-inline-flex align-items-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                <svg class="bi" width="1em" height="1em">
+                                <use xlink:href="#collection"></use>
+                                </svg>
+                            </div>
+                            <h4 class="fw-semibold mb-0">Les faune</h4>  
+                        </a> 
+                    </div>    
+                    <br>
+                    <br>
+                    <br>
+                    <!--/Main Content --> 
+                    {% include 'layouts/footer.html.twig' %}   
+                </div>
+                <!--/Main -->  
+        
+        	</div>
+            <!--/Content Scroll --> 
+            
+            
+		</div>    
+        <!--/Page Content -->
+    
+		</div>
+	</main>
+    
+    <div class="cd-cover-layer"></div>
+    <div id="magic-cursor" class="light-content">
+        <div id="ball">
+        	<div id="hold-event"></div>
+        	<div id="ball-loader"></div>
+        </div>
+    </div>
+    <div id="clone-image"></div> 
+{% endblock %}

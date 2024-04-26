@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="W4KIYa7" resname="Population">
+        <source>Population</source>
+        <target>Fory</target>
+      </trans-unit>
+      <trans-unit id="YOm_Bxv" resname="Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.">
+        <source>Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.</source>
+        <target>__Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.</target>
+      </trans-unit>
+      <trans-unit id="WwZ2oHu" resname="Climat">
+        <source>Climat</source>
+        <target>__Climat</target>
+      </trans-unit>
+      <trans-unit id="oUf7o06" resname="Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.">
+        <source>Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.</source>
+        <target>__Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.</target>
+      </trans-unit>
+      <trans-unit id="y8LnV0D" resname="Altitude">
+        <source>Altitude</source>
+        <target>__Altitude</target>
+      </trans-unit>
+      <trans-unit id="d1TyJKa" resname="L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.">
+        <source>L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.</source>
+        <target>__L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

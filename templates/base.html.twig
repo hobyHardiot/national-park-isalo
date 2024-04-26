@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          
+          ga('create', 'code_here', 'auto');
+          ga('send', 'pageview');
+        </script>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
-        {% block stylesheets %}
-        {% endblock %}
+        <title>{% block title %}{% endblock %} | Isalo</title>
+        {% include 'layouts/styles.html.twig' %}
+        {% block style %}
+        
+        {% endblock %} 
 
-        {% block javascripts %}
-            {% block importmap %}{{ importmap('app') }}{% endblock %}
-        {% endblock %}
     </head>
-    <body>
-        {% block body %}{% endblock %}
-    </body>
+<body class="hidden hidden-ball smooth-scroll slides chain simplifiedMobile animated">
+  {% block body %}
+  {% endblock %} 
+  {% include 'layouts/scripts.html.twig' %}
+  {% block script %}{% endblock %}
+</body>
+
 </html>

@@ -1,0 +1,102 @@
+
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Flore{% endblock %}
+
+{% block body %}
+
+	<main>		
+        <!-- Preloader -->
+        <div class="preloader-wrap">
+            <div class="outer">
+                <div class="inner">
+                    <div class="percentage" id="precent"></div>
+                    <div class="trackbar">
+                        <div class="loadbar"></div>
+                    </div>
+                    <div class="headphones"></div>
+                    <div class="headphones-text">Turn up the volume for the<br>best experience</div>
+                </div>
+            </div>
+        </div>
+        <!--/Preloader -->    
+        
+        <div class="cd-index cd-main-content">
+    
+        <!-- Page Content -->
+        <div id="page-content" class="">        
+            
+            
+            {% include 'layouts/navbar.html.twig' %}
+            <!-- Content Scroll -->
+            <div id="content-scroll">
+            
+            
+                <!-- Main -->
+                <div id="main">    
+                    
+                    <!-- Main Content -->
+                    <div id="main-content" class="light-content">
+                        <!-- Main Page Content -->
+                        <div id="main-page-content">	    
+                            <br>
+                            <br>
+                            <br>
+                            <div class="container mt-5 vc_row small">
+                                <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title">Confirmation de Réservation</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">Bonjour <span id="nom"></span>,</p>
+                                    <p class="card-text">Nous vous remercions pour votre réservation à <span id="hotel"></span>. Voici les détails de votre réservation :</p>
+                                    <ul class="list-group">
+                                    <li class="list-group-item">Nombre de chambres : <span id="nbChambres"></span></li>
+                                    <li class="list-group-item">Nombre de personnes : <span id="nbPersonnes"></span></li>
+                                    <li class="list-group-item">Dates d'intervalle : <span id="dates"></span></li>
+                                    <li class="list-group-item">Montant total : <span id="montant"></span></li>
+                                    <li class="list-group-item">Nom du titulaire de la réservation : <span id="nomTitulaire"></span></li>
+                                    <li class="list-group-item">Numéro de carte de crédit : <span id="creditCard"></span></li>
+                                    </ul>
+                                    <p class="card-text">Votre réservation est confirmée pour les dates demandées. Veuillez noter que votre carte de crédit sera débitée du montant total à l'arrivée.</p>
+                                    <p class="card-text">Si vous avez des questions ou des demandes spéciales, n'hésitez pas à nous contacter à <span id="email"></span> ou par téléphone au <span id="telephone"></span>.</p>
+                                    <p class="card-text">Nous sommes impatients de vous accueillir à <span id="hotel"></span>.</p>
+                                </div>
+                                </div>
+                            </div><p>Total Price: {{ totalPrice }}</p>
+<p>Select Label: {{ selectLabel }}</p>
+<p>Payment Label: {{ paymentLabel }}</p>
+    <a href="{{ path('generer_recu', {'totalPrice': totalPrice, 'selectLabel': selectLabel, 'paymentLabel': paymentLabel}) }}" class="btn btn-primary">Générer le reçu</a>
+                        </div>
+                        <!--/Main Page Content -->              
+                                
+                    </div>  
+                    <br>
+                    <br>
+                    <br>
+                    <!--/Main Content --> 
+                    {% include 'layouts/footer.html.twig' %}   
+                </div>
+                <!--/Main -->  
+        
+        	</div>
+            <!--/Content Scroll --> 
+            
+            
+		</div>    
+        <!--/Page Content -->
+    
+		</div>
+        
+	</main>
+    
+    <div class="cd-cover-layer"></div>
+    <div id="magic-cursor" class="light-content">
+        <div id="ball">
+        	<div id="hold-event"></div>
+        	<div id="ball-loader"></div>
+        </div>
+    </div>
+    <div id="clone-image"></div> 
+{% endblock %}

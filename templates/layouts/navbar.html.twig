@@ -1,0 +1,75 @@
+
+<header class="classic-menu"  style="height:60px">
+    <div id="header-container" class="px-lg-4 py-lg-0"> 
+        <div id="logo" class="hide-ball">
+            <a class="ajax-link" data-type="page-transition" href="{{path('app_home')}}">
+                <img class="black-logo" src="{{asset('images/logo.png')}}" alt="ClaPat Logo">
+                <img class="white-logo" src="{{asset('images/logo-white.png')}}" alt="ClaPat Logo">
+            </a> 
+        </div> 
+        <div class="socials-wrap d-none d-lg-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 20px;overflow: hidden;">  
+            <div>              	
+                <div class=" "><i class="fa fa-share-alt" aria-hidden="true"></i></div> 
+                <a class="parallax-element" href=" " target="_blank"><img class="" width="20px" src="{{asset('images/lang/'~app.request.locale~'.png')}}"></a> 
+            </div>  
+            <ol class="socials pt-3" style="position:absolute;top:15px;height: auto;line-height: 30px;position: relative;width: auto;text-align: center;bottom: 0;display: table;transform: translateX(15px);-webkit-transform: translateX(15px);">
+                <div class="bg-white">
+
+                {% for locale in locales %}
+                    {% if locale != app.request.locale %} 
+                        <li><span class="parallax-wrap "><a class="parallax-element" href="{{path('change_locale',{'locale': locale})}}"><img class="img-fluid w-50" src="{{asset('images/lang/'~locale~'.png')}}"></a></span></li> 
+                    {% endif %}  
+                {% endfor %}
+ 
+                </div>
+            </ol>                
+        </div>
+        <nav class="m-0 d-flex"> 
+            <div class="nav-height w-100">
+                <div class="outer w-100">
+                    <div class="inner w-100">           
+                        <ul data-breakpoint="1025" class="flexnav d-lg-flex d-block justify-content-around w-100">
+                            <li class="link menu-timeline p-0"><a href="#"><span data-hover="Spécificités">Spécificités</span></a>
+                                <ul class="p-2 pt-4">
+                                    <li><a class="ajax-link " href="{{path('app_paysage')}}" data-type="page-transition">Paysage</a></li>
+                                    <li><a class="ajax-link" href="{{path('app_faune')}}" data-type="page-transition">Faune</a></li>
+                                    <li><a class="ajax-link" href="{{path('app_flore')}}" data-type="page-transition">Flore</a></li> 
+                                </ul>
+                            </li>                           
+                            <li class="link menu-timeline p-0"><a class="ajax-link" data-type="page-transition" href="about.html"><span data-hover="About">About</span></a></li>                        
+                            <li class="link menu-timeline p-0"><a class="ajax-link" data-type="page-transition" href="#contact"><span data-hover="Contact">Contact</span></a></li>     
+                        </ul>            
+                    </div>
+                </div> 
+            </div>          
+        </nav>  
+        <div id="burger-wrapper" class="parallax-wrap">
+            <div id="menu-burger" class="parallax-element">
+                <span></span>
+                <span></span>
+            </div>
+        </div> 
+
+    </div>
+</header>
+
+    <script src="{{asset('assets/js/jquery.min.js')}}"></script> 
+    <script>
+        $(document).ready(function(){      
+            $(document).on("mousemove", function() { 
+                var styles = $(".scroll-content").css("transform");
+                var translateY = parseFloat(styles.split(",")[5]);
+                 
+                if(translateY <= -120)
+                {  
+                    $('.classic-menu').addClass('bg-white');
+                    $('.classic-menu').addClass('header-shadow');
+                } else { 
+                    $('.classic-menu').removeClass('bg-white').fadeIn('fast');
+                    $('.classic-menu').removeClass('header-shadow').fadeIn('fast');
+                }
+                console.log(translateY);
+            });  
+        });
+    </script>
+    
