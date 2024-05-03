@@ -37,8 +37,8 @@
                                 <img src="{{asset('images/img-header/4.png')}}" data-speedx="0.15" data-speedy="0.23" data-speedz="0" data-rotation="1" data-distance="" class="parallax img-3">
                                 <img src="{{asset('images/img-header/5.png')}}" data-speedx="0.16" data-speedy="0.24" data-speedz="0" data-rotation="1" data-distance="" class="parallax img-3">
                                 <div class="text parallax" data-speedx="0.13" data-speedy="0.21" data-rotation="1"  data-speedz="0" >
-                                    <h1 style="color:white !important;font-family:GraphikLight" class="animate__animated animate__backInDown animate__delay-2s">Parc National</h1>
-                                    <h2 style="color:white !important" class="animate__animated animate__bounceInUp animate__delay-3s">Isalo</h2>
+                                    <h1 style="color:white !important;font-family:GraphikLight" class="animate__animated animate__backInDown animate__delay-2s">{% trans %}Parc National{% endtrans %}</h1>
+                                    <h2 style="color:white !important" class="animate__animated animate__bounceInUp animate__delay-3s">{% trans %}Isalo{% endtrans %}</h2>
                                 </div> 
                             </div>
                             <div id="main-page-content"> 
@@ -84,14 +84,14 @@
                                     </div>  
                                 </div> 
                                 <div class="vc_row row_padding_top   text-align-center">
-                                    <h2 class="pb-2 has-mask">Localisation</h2>
+                                    <h2 class="pb-2 has-mask">{% trans %}Localisation{% endtrans %}</h2>
                                     <div class="row">
-                                        {% include "home/default.html.twig" %} 
+                                        {% include "home/localisation.html.twig" %} 
                                     </div>
                                 </div> 
                                 <div class="vc_row row_padding_top small text-align-center">
-                                    <h2 class="pb-2 has-mask">Spécificités</h2> 
-                                    <h6 class="has-mask fs-5 fw-lighter" style="font-family:GraphikRegular;font-size:14px !"  data-delay="10">Le parc National Terrestre Isalo est une représentation écologique unique au sein du réseau Parcs Nationaux Madagascar : un massif ruiniforme de grès continental datant du jurassique avec sa géomorphologie typique et sa végétation rupicole endémique (Aloès, Euphorbes, Pachypodes, Kalanchoe …) et la faune spécifique de cet habitat exceptionnel (reptiles de rochers dont la grande majorité sont endémiques).</h6>  
+                                    <h2 class="pb-2 has-mask">{% trans %}Spécificités{% endtrans %}</h2> 
+                                    <h6 class="has-mask fs-5 fw-lighter" style="font-family:GraphikRegular;font-size:14px !"  data-delay="10">{% trans %}Le parc National Terrestre Isalo est une représentation écologique unique au sein du réseau Parcs Nationaux Madagascar : un massif ruiniforme de grès continental datant du jurassique avec sa géomorphologie typique et sa végétation rupicole endémique (Aloès, Euphorbes, Pachypodes, Kalanchoe …) et la faune spécifique de cet habitat exceptionnel (reptiles de rochers dont la grande majorité sont endémiques).{% endtrans %}</h6>  
                                 </div> 
                                 <br>
 
@@ -107,8 +107,8 @@
                                                 </div>
                                                 <a class="showcase-link-project" data-type="page-transition" href="{{path('app_paysage')}}"></a>
                                                 <div class="slide-caption">
-                                                    <h2 class="slide-title text-white">Paysage</h2>
-                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">Voir</span></h4>
+                                                    <h2 class="slide-title text-white">{% trans %}Paysage{% endtrans %}</h2>
+                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">{% trans %}Voir{% endtrans %}</span></h4>
                                                 </div>
                                             </div> 
                                             <div class="swiper-slide">
@@ -119,8 +119,8 @@
                                                 </div>
                                                 <a class="showcase-link-project" data-type="page-transition" href="{{path('app_faune')}}"></a>
                                                 <div class="slide-caption">
-                                                    <h2 class="slide-title text-white">Faune</h2>
-                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">Voir</span></h4>
+                                                    <h2 class="slide-title text-white">{% trans %}Faune{% endtrans %}</h2>
+                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">{% trans %}Voir{% endtrans %}</span></h4>
                                                 </div>
                                             </div> 
                                             <div class="swiper-slide bg-video">
@@ -132,8 +132,8 @@
                                                 </div>
                                                 <a class="showcase-link-project" data-type="page-transition" href="{{path('app_flore')}}"></a>
                                                 <div class="slide-caption">
-                                                    <h2 class="slide-title text-white">Flore</h2>
-                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">Voir</span></h4>
+                                                    <h2 class="slide-title text-white">{% trans %}Flore{% endtrans %}</h2>
+                                                    <h4 class="slide-cat"><span data-hover="View Case" class="text-white">{% trans %}Voir{% endtrans %}</span></h4>
                                                 </div>
                                             </div>
                                             <!--/Section Slide -->
@@ -156,36 +156,36 @@
                                     <div class="row flex-lg-row-reverse my-5">
                                         <div class="col-md-6  d-flex align-items-center">
                                             <div class="card" style="border:none !important">
-                                                <h2 class="pb-2 has-mask">Droits d'entrée dans le parc </h2>
+                                                <h2 class="pb-2 has-mask">{% trans %}Droits d'entrée dans le parc{% endtrans %} </h2>
                                                 <div class="row text-center mb-5" style="height:100%;">
                                             
                                                     <div class="col-md-3 d-flex flex-column p-3 bg-white shadow-sm justify-content-center" style="border-radius:15px">
                                                         <h5 class="m-0">
                                                             500 AR
                                                         </h5>
-                                                        <p class="text-secondary m-0">Enfants Malagasy</p>
+                                                        <p class="text-secondary m-0">{% trans %}Enfants Malagasy{% endtrans %}</p>
                                                     </div> 
                                                     <div class="col-md-3 d-flex flex-column p-3 bg-white shadow-sm justify-content-center" style="border-radius:15px">
                                                         <h5 class="m-0">
                                                             2.000 AR
                                                         </h5>
-                                                        <p class="text-secondary m-0">Adultes Malagasy</p>
+                                                        <p class="text-secondary m-0">{% trans %}Adultes Malagasy{% endtrans %}</p>
                                                     </div> 
                                                     <div class="col-md-3 d-flex flex-column p-3 bg-white shadow-sm justify-content-center" style="border-radius:15px">
                                                         <h5 class="m-0">
                                                             25.000 AR
                                                         </h5>
-                                                        <p class="text-secondary m-0">Enfants Etrangers</p>
+                                                        <p class="text-secondary m-0">{% trans %}Enfants Etrangers{% endtrans %}</p>
                                                     </div> 
                                                     <div class="col-md-3 d-flex flex-column p-3 bg-white shadow-sm justify-content-center" style="border-radius:15px">
                                                         <h5 class="m-0">
                                                             65.000 AR
                                                         </h5>
-                                                        <p class="text-secondary m-0">Adultes Etrangers</p>
+                                                        <p class="text-secondary m-0">{% trans %}Adultes Etrangers{% endtrans %}</p>
                                                     </div>
                                                 </div>
-                                                <p class="card-text fs-5">Les tickets d'entrées sont <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">disponibles</b></i> auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> Ouvert</b></i> du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.</p>  
-                                                <p class="card-text fs-5" style="font-family: 'GraphikLight';line-height: 1.5;"> <span style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Droit de guidage non-inclus</span><br>Toutes les visites doivent être obligatoirement accompagnées par un guide local.</p> 
+                                                <p class="card-text fs-5">{% trans %}Les tickets d'entrées sont {% endtrans %}<i><b class="mx-1" style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %} disponibles {% endtrans %}</b></i>{% trans %} auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.{% endtrans %}<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> {% trans %}ouvert {% endtrans %}</b> </i>{% trans %}  du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.{% endtrans %}</p>  
+                                                <p class="card-text fs-5" style="font-family: 'GraphikLight';line-height: 1.5;"> <span style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %}Droit de guidage non-inclus{% endtrans %}</span><br>{% trans %}Toutes les visites doivent être obligatoirement accompagnées par un guide local.{% endtrans %}</p> 
                                             </div>
                                         </div>
                                         <div class="col-md-6 hide-ball" style="transform: rotate(40deg) ;" >
@@ -198,9 +198,9 @@
                                     <div class="row">
                                         <div class="col-md-6  d-flex align-items-center">
                                             <div class=" " style="border:none !important">
-                                                <h2 class="pb-2 has-mask">Hébergement à Ranohira</h2>
-                                                <p class="card-text fs-5">Offrant un mélange parfait de confort, d'aventure et de tranquillité, <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">l'Isalo Rock Lodge</b></i> est le point de départ idéal pour explorer toutes les merveilles du parc national.</p> 
-                                                <p class="card-text fs-5">Vivez une aventure authentique au cœur du parc national avec un séjour à l'Isalo Rock Lodge, où le charme de l'architecture locale rencontre le raffinement moderne.</p> 
+                                                <h2 class="pb-2 has-mask">{% trans %}Hébergement à Ranohira{% endtrans %}</h2>
+                                                <p class="card-text fs-5">{% trans %}Offrant un mélange parfait de confort, d'aventure et de tranquillité, {% endtrans %}<i><b class="mx-1" style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">l'Isalo Rock Lodge</b></i>{% trans %} est le point de départ idéal pour explorer toutes les merveilles du parc national.{% endtrans %}</p> 
+                                                <p class="card-text fs-5">{% trans %}Vivez une aventure authentique au cœur du parc national avec un séjour à l'Isalo Rock Lodge, où le charme de l'architecture locale rencontre le raffinement moderne.{% endtrans %}</p> 
                                                 <div>
                                                 </div>
 
@@ -209,7 +209,7 @@
                                                         <div class="clapat-button-wrap parallax-wrap hide-ball">
                                                             <div class="clapat-button parallax-element"> 
                                                                 <a href="{{path('app_hebergement')}}">
-                                                                    <button class="btn text-white px-5 py-3" style="font-size:1.25rem;background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;width:380px">Reservez dès maintenant</button>
+                                                                    <button class="btn text-white px-5 py-3" style="font-size:1.25rem;background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;width:380px">{% trans %}Reservez dès maintenant{% endtrans %}</button>
                                                                 </a>
                                                             </div>
                                                         </div> 
@@ -229,7 +229,7 @@
                                 <br>
                                 <div id="contact"  class="vc_row small text-align-center">
                                     
-                                    <h2 class="has-mask" data-delay="10">Contactez nous</h2>
+                                    <h2 class="has-mask" data-delay="10">{% trans %}Contactez nous{% endtrans %}</h2>
                                         
                                     <!-- Contact Formular -->
                                     <div id="contact-formular">
@@ -238,13 +238,13 @@
                                     
                                         <form method="post" action="{{path('app_home')}}" >                             
                                             <div class="name-box has-animation" data-delay="100">        
-                                                <input required name="name" type="text" id="name" size="30" value="" placeholder="Votre nom"><label class="input_label"></label>
+                                                <input required name="name" type="text" id="name" size="30" value="" placeholder="{% trans %}Votre nom{% endtrans %}"><label class="input_label"></label>
                                             </div>                                                        
                                             <div class="email-box has-animation" data-delay="150">
-                                                <input required name="email" type="text" id="email" size="30" value="" placeholder="Votre email"><label class="input_label"></label>
+                                                <input required name="email" type="text" id="email" size="30" value="" placeholder="{% trans %}Votre email{% endtrans %}"><label class="input_label"></label>
                                             </div>                            
                                             <div class="message-box has-animation" data-delay="100">
-                                                <textarea required name="comments" cols="40" rows="4" id="comments" placeholder="Votre message" ></textarea><label class="input_label slow"></label>
+                                                <textarea required name="comments" cols="40" rows="4" id="comments" placeholder="{% trans %}Votre message{% endtrans %}" ></textarea><label class="input_label slow"></label>
                                             </div>                             
                                             <div class="button-box has-animation" data-delay="100">             
 
@@ -252,7 +252,7 @@
                                                     <div class="button-box w-25 has-animation" data-delay="100">             
                                                         <div class="clapat-button-wrap parallax-wrap hide-ball">
                                                             <div class="clapat-button parallax-element">  
-                                                                    <button type="submit" class="btn text-white px-3 py-1" style="background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;">Envoyer</button>
+                                                                    <button type="submit" class="btn text-white px-3 py-1" style="background-color: rgb(28, 228, 213);font-family:GraphikBold;border-radius:10px;">{% trans %}Envoyer{% endtrans %}</button>
                                                             </div>
                                                         </div> 
                                                     </div>
@@ -288,7 +288,7 @@
                                         </div>
                                     
                                         <h6><a class="text-dark" href="mailto:cvecotisalo@outlook.com">cvecotisalo@outlook.com </a></h6>
-                                        <p>Email</p>                        
+                                        <p>{% trans %}Email{% endtrans %}</p>                        
                                     </div>
                                     
                                     <div class="one_third has-animation"  data-delay="200">
@@ -297,7 +297,7 @@
                                         </div>
                                     
                                         <h6 class="text-dark">BP. 6 Ranohira – 313 Ihosy</h6>
-                                        <p>Addresse</p>                        
+                                        <p>{% trans %}Addresse{% endtrans %}</p>                        
                                     </div>
                                     
                                     <div class=" one_third last has-animation"  data-delay="300">
@@ -306,7 +306,7 @@
                                         </div>
                                     
                                         <h6><a class="text-dark" href="tel:+261320940236">+261 32 09 402 36</a></h6>
-                                        <p>Phone</p>
+                                        <p>{% trans %}Phone{% endtrans %}</p>
                                     </div>
                                      
                                     

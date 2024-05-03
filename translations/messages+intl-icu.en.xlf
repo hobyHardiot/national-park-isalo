@@ -7,27 +7,227 @@
     <body>
       <trans-unit id="W4KIYa7" resname="Population">
         <source>Population</source>
-        <target>Fory</target>
+        <target>Population</target>
       </trans-unit>
       <trans-unit id="YOm_Bxv" resname="Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.">
         <source>Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.</source>
-        <target>__Les Bara constituent l’ethnie dominante de la population environnante au Parc national d’Isalo. Leurs activités principales sont l’élevage, de zébu surtout, et l’agriculture.</target>
+        <target>The Bara constitute the dominant ethnic group of the surrounding population in Isalo National Park. Their main activities are breeding, especially zebu, and agriculture.</target>
       </trans-unit>
       <trans-unit id="WwZ2oHu" resname="Climat">
         <source>Climat</source>
-        <target>__Climat</target>
+        <target>Climate</target>
       </trans-unit>
       <trans-unit id="oUf7o06" resname="Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.">
         <source>Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.</source>
-        <target>__Le Climat est du type tropical sec , avec une précipitation de 800 à 1000 mm de pluie se répartissant de décembre à mars de chaque année et des températures moyennes mensuelles de 17° C en juin et de 25° C en février.</target>
+        <target>The climate is dry tropical, with precipitation of 800 to 1000 mm of rain distributed from December to March each year and average monthly temperatures of 17° C in June and 25° C in February.</target>
       </trans-unit>
       <trans-unit id="y8LnV0D" resname="Altitude">
         <source>Altitude</source>
-        <target>__Altitude</target>
+        <target>Altitude</target>
       </trans-unit>
       <trans-unit id="d1TyJKa" resname="L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.">
         <source>L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.</source>
-        <target>__L'altitude varie de 514 m à 1268 m et la profondeur des canyons peut atteindre 200 m de profondeur.</target>
+        <target>The altitude varies from 514 m to 1268 m and the depth of the canyons can reach 200 m deep.</target>
+      </trans-unit>
+      <trans-unit id="8x9PyFE" resname="Localisation">
+        <source>Localisation</source>
+        <target>Location</target>
+      </trans-unit>
+      <trans-unit id="LpQwUT7" resname="Spécificités">
+        <source>Spécificités</source>
+        <target>Specificities</target>
+      </trans-unit>
+      <trans-unit id="7OX9xVq" resname="Le parc National Terrestre Isalo est une représentation écologique unique au sein du réseau Parcs Nationaux Madagascar : un massif ruiniforme de grès continental datant du jurassique avec sa géomorphologie typique et sa végétation rupicole endémique (Aloès, Euphorbes, Pachypodes, Kalanchoe …) et la faune spécifique de cet habitat exceptionnel (reptiles de rochers dont la grande majorité sont endémiques).">
+        <source>Le parc National Terrestre Isalo est une représentation écologique unique au sein du réseau Parcs Nationaux Madagascar : un massif ruiniforme de grès continental datant du jurassique avec sa géomorphologie typique et sa végétation rupicole endémique (Aloès, Euphorbes, Pachypodes, Kalanchoe …) et la faune spécifique de cet habitat exceptionnel (reptiles de rochers dont la grande majorité sont endémiques).</source>
+        <target>The Isalo Terrestrial National Park is a unique ecological representation within the Madagascar National Parks network: a ruiniform massif of continental sandstone dating from the Jurassic with its typical geomorphology and its endemic rupicolous vegetation (Aloe, Euphorbia, Pachypodes, Kalanchoe, etc.) and specific fauna of this exceptional habitat (rock reptiles, the vast majority of which are endemic).</target>
+      </trans-unit>
+      <trans-unit id="3deEu9P" resname="Paysage">
+        <source>Paysage</source>
+        <target>Landscape</target>
+      </trans-unit>
+      <trans-unit id="Sh6EfsR" resname="Voir">
+        <source>Voir</source>
+        <target>See</target>
+      </trans-unit>
+      <trans-unit id="PeHnQt6" resname="Faune">
+        <source>Faune</source>
+        <target>Fauna</target>
+      </trans-unit>
+      <trans-unit id="0MxBts7" resname="Flore">
+        <source>Flore</source>
+        <target>Flora</target>
+      </trans-unit>
+      <trans-unit id="t2pH_Xy" resname="Droits d'entrée dans le parc">
+        <source>Droits d'entrée dans le parc</source>
+        <target>Entrance fees to the park</target>
+      </trans-unit>
+      <trans-unit id="JGiXH6e" resname="Enfants Malagasy">
+        <source>Enfants Malagasy</source>
+        <target>Malagasy children</target>
+      </trans-unit>
+      <trans-unit id="mPo0klA" resname="Adultes Malagasy">
+        <source>Adultes Malagasy</source>
+        <target>Malagasy adults</target>
+      </trans-unit>
+      <trans-unit id="zcVGkSv" resname="Enfants Etrangers">
+        <source>Enfants Etrangers</source>
+        <target>Foreign Children</target>
+      </trans-unit>
+      <trans-unit id="0OX7Ggt" resname="Adultes Etrangers">
+        <source>Adultes Etrangers</source>
+        <target>Foreign adults</target>
+      </trans-unit>
+      <trans-unit id="t28Wjw_" resname="Les tickets d'entrées sont &lt;i&gt;&lt;b style=&quot;background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);&quot;&gt;disponibles&lt;/b&gt;&lt;/i&gt; auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.&lt;i&gt;&lt;b style=&quot;background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);&quot;&gt; Ouvert&lt;/b&gt;&lt;/i&gt; du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.">
+        <source>Les tickets d'entrées sont &lt;i&gt;&lt;b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"&gt;disponibles&lt;/b&gt;&lt;/i&gt; auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.&lt;i&gt;&lt;b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"&gt; Ouvert&lt;/b&gt;&lt;/i&gt; du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.</source>
+        <target><![CDATA[Entrance tickets are <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> available </b></i> at the reception desks of each National Park, or in the kiosk of the Analamanga Regional Tourist Office in Antaninarenina at the point of sale.<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> Open</b></i> Monday to Friday, 9 a.m. to 5 p.m. and Saturday, 9 a.m. to 12 p.m.]]></target>
+      </trans-unit>
+      <trans-unit id="DJ0HCyN" resname="&lt;span style=&quot;background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);&quot;&gt;Droit de guidage non-inclus&lt;/span&gt;&lt;br&gt;Toutes les visites doivent être obligatoirement accompagnées par un guide local.">
+        <source>&lt;span style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"&gt;Droit de guidage non-inclus&lt;/span&gt;&lt;br&gt;Toutes les visites doivent être obligatoirement accompagnées par un guide local.</source>
+        <target><![CDATA[__<span style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Guidance fee not included</span><br>All visits must be accompanied by a local guide.]]></target>
+      </trans-unit>
+      <trans-unit id="OdsRrE1" resname="Hébergement à Ranohira">
+        <source>Hébergement à Ranohira</source>
+        <target>Accommodation in Ranohira</target>
+      </trans-unit>
+      <trans-unit id="noWAnMR" resname="Offrant un mélange parfait de confort, d'aventure et de tranquillité, &lt;i&gt;&lt;b style=&quot;background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);&quot;&gt;l'Isalo Rock Lodge&lt;/b&gt;&lt;/i&gt; est le point de départ idéal pour explorer toutes les merveilles du parc national.">
+        <source>Offrant un mélange parfait de confort, d'aventure et de tranquillité, &lt;i&gt;&lt;b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"&gt;l'Isalo Rock Lodge&lt;/b&gt;&lt;/i&gt; est le point de départ idéal pour explorer toutes les merveilles du parc national.</source>
+        <target><![CDATA[Offering a perfect blend of comfort, adventure and tranquility, <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">l'Isalo Rock Lodge</b></i>is the ideal starting point for exploring all the wonders of the national park.]]></target>
+      </trans-unit>
+      <trans-unit id="TbX0BUA" resname="Vivez une aventure authentique au cœur du parc national avec un séjour à l'Isalo Rock Lodge, où le charme de l'architecture locale rencontre le raffinement moderne.">
+        <source>Vivez une aventure authentique au cœur du parc national avec un séjour à l'Isalo Rock Lodge, où le charme de l'architecture locale rencontre le raffinement moderne.</source>
+        <target>Experience an authentic adventure in the heart of the national park with a stay at Isalo Rock Lodge, where the charm of local architecture meets modern refinement.</target>
+      </trans-unit>
+      <trans-unit id="jicF5j9" resname="Reservez dès maintenant">
+        <source>Reservez dès maintenant</source>
+        <target>Reservation now</target>
+      </trans-unit>
+      <trans-unit id="rF4TXJe" resname="Contactez nous">
+        <source>Contactez nous</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="eQdSCfK" resname="Envoyer">
+        <source>Envoyer</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit id="F4ewgcS" resname="Les tickets d'entrées sont">
+        <source>Les tickets d'entrées sont</source>
+        <target>Entrance tickets are</target>
+      </trans-unit>
+      <trans-unit id="Si2KVfK" resname="disponibles">
+        <source>disponibles</source>
+        <target>available</target>
+      </trans-unit>
+      <trans-unit id="PeKbmh6" resname="auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.">
+        <source>auprès des guichets d'accueil de chaque Parc National, soit dans l’enceinte du kiosque de l’Office Régional du Tourisme Analamanga à Antaninarenina auprès du point de vente.</source>
+        <target>at the reception desks of each National Park, or in the kiosk of the Analamanga Regional Tourist Office in Antaninarenina at the point of sale.</target>
+      </trans-unit>
+      <trans-unit id="om_c4ov" resname="ouvert">
+        <source>ouvert</source>
+        <target>open</target>
+      </trans-unit>
+      <trans-unit id="JgDsGFK" resname="du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.">
+        <source>du lundi au vendredi, de 09h à 17h et le samedi, de 09h à 12h00.</source>
+        <target>Monday to Friday, 9 a.m. to 5 p.m. and Saturday, 9 a.m. to 12 p.m.</target>
+      </trans-unit>
+      <trans-unit id="UUys8VU" resname="Droit de guidage non-inclus">
+        <source>Droit de guidage non-inclus</source>
+        <target>Guidance fee not included</target>
+      </trans-unit>
+      <trans-unit id="5GCb72S" resname="Toutes les visites doivent être obligatoirement accompagnées par un guide local.">
+        <source>Toutes les visites doivent être obligatoirement accompagnées par un guide local.</source>
+        <target>All visits must be accompanied by a local guide.</target>
+      </trans-unit>
+      <trans-unit id="08H2rh2" resname="Offrant un mélange parfait de confort, d'aventure et de tranquillité,">
+        <source>Offrant un mélange parfait de confort, d'aventure et de tranquillité,</source>
+        <target>Offering a perfect blend of comfort, adventure and tranquility,</target>
+      </trans-unit>
+      <trans-unit id="SqxIlje" resname="est le point de départ idéal pour explorer toutes les merveilles du parc national.">
+        <source>est le point de départ idéal pour explorer toutes les merveilles du parc national.</source>
+        <target>is the ideal starting point for exploring all the wonders of the national park.</target>
+      </trans-unit>
+      <trans-unit id="Un7kI_z" resname="Parc National">
+        <source>Parc National</source>
+        <target>National park</target>
+      </trans-unit>
+      <trans-unit id="3AIL27P" resname="Isalo">
+        <source>Isalo</source>
+        <target>Isalo</target>
+      </trans-unit>
+      <trans-unit id="LbKonXo" resname="Votre nom">
+        <source>Votre nom</source>
+        <target>Your name</target>
+      </trans-unit>
+      <trans-unit id="oPt21Gu" resname="Votre email">
+        <source>Votre email</source>
+        <target>Your email</target>
+      </trans-unit>
+      <trans-unit id="QERVmkw" resname="Votre message">
+        <source>Votre message</source>
+        <target>Your message</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="i8_sci5" resname="Addresse">
+        <source>Addresse</source>
+        <target>Adress</target>
+      </trans-unit>
+      <trans-unit id="Y9zriAC" resname="Phone">
+        <source>Phone</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="vZKm25u" resname="Emplacement">
+        <source>Emplacement</source>
+        <target>Emplacement</target>
+      </trans-unit>
+      <trans-unit id="pCJs7zD" resname="dans la commune de Ranohira">
+        <source>dans la commune de Ranohira</source>
+        <target>in the commune of Ranohira</target>
+      </trans-unit>
+      <trans-unit id="M2VHkxi" resname="Situé">
+        <source>Situé</source>
+        <target>Located</target>
+      </trans-unit>
+      <trans-unit id="Dt8Ek4e" resname="à 269 km de Fianarantsoa">
+        <source>à 269 km de Fianarantsoa</source>
+        <target>269 km from Fianarantsoa</target>
+      </trans-unit>
+      <trans-unit id="sdj0_.L" resname="à 80 km d’ Ihosy">
+        <source>80 km from Ihosy</source>
+        <target>80 km from Ihosy</target>
+      </trans-unit>
+      <trans-unit id="06AI7xM" resname="Region">
+        <source>Region</source>
+        <target>Region</target>
+      </trans-unit>
+      <trans-unit id="0mooOO." resname="Ihorombe">
+        <source>Ihorombe</source>
+        <target>Ihorombe</target>
+      </trans-unit>
+      <trans-unit id="r8tLyqw" resname="Burreau">
+        <source>Burreau</source>
+        <target>Office</target>
+      </trans-unit>
+      <trans-unit id="IWBSnYr" resname="Comment s'y rendre?">
+        <source>Comment s'y rendre?</source>
+        <target>How to get there?</target>
+      </trans-unit>
+      <trans-unit id="M9sh2z." resname="Trajet">
+        <source>Trajet</source>
+        <target>Trajet</target>
+      </trans-unit>
+      <trans-unit id="ffcIu08" resname="15 heures de route">
+        <source>15 heures de route</source>
+        <target>15 hours drive</target>
+      </trans-unit>
+      <trans-unit id="sFfChD6" resname="Route goudronnée">
+        <source>Route goudronnée</source>
+        <target>Asphalt road</target>
+      </trans-unit>
+      <trans-unit id="lXXwuWP" resname="4 heures de route">
+        <source>4 heures de route</source>
+        <target>4 hours drive</target>
       </trans-unit>
     </body>
   </file>
