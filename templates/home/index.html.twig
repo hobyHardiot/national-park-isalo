@@ -6,6 +6,70 @@
         .gm-style .place-card{
             display:none;
         }
+        #button {
+        display: inline-block;
+        background-color: #FF9800;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: background-color .3s, 
+            opacity .5s, visibility .5s;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 1000;
+        }
+        #button::after {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff;
+        }
+        #button:hover {
+        cursor: pointer;
+        background-color: #333;
+        }
+        #button:active {
+        background-color: #555;
+        }
+        #button.show {
+        opacity: 1;
+        visibility: visible;
+        }
+
+        /* Styles for the content section */
+
+        .content {
+        width: 77%;
+        margin: 50px auto;
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        color: #6c767a;
+        line-height: 1.9;
+        }
+        @media (min-width: 500px) {
+        .content {
+            width: 43%;
+        }
+        #button {
+            margin: 30px;
+        }
+        }
+        .content h1 {
+        margin-bottom: -10px;
+        color: #03a9f4;
+        line-height: 1.5;
+        }
+        .content h3 {
+        font-style: italic;
+        color: #96a2a7;
+        }
     </style>
  {% endblock %}
 {% block body %}  
@@ -193,7 +257,175 @@
                                         </div>
                                     </div>
                                 </div> 
+                                <div class="vc_row container">
 
+<div class="affiche">Element affiche</div>
+
+<div>
+    <ul>
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+    </ul>
+</div>
+
+<section id="section1">
+    <h2>Section 1</h2>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p>Ceci est la première section.</p>
+    <p><a href="#top">Retour en haut</a></p>
+</section>
+
+<section id="section2">
+    <h2>Section 2</h2>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p>Ceci est la deuxième section.</p>
+    <p><a href="#top">Retour en haut</a></p>
+</section>
+
+<section id="section3">
+    <h2>Section 3</h2>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p>Ceci est la troisième section.</p>
+    <p><a href="#top">Retour en haut</a></p>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+<script> 
+    {# var controller = new ScrollMagic.Controller(); 
+    var $element = $('.affiche');
+ 
+    var scene = new ScrollMagic.Scene({
+        triggerElement: $element[0],
+        duration: $element.height(),
+        offset: 0
+    })
+   .addTo(controller);
+ 
+    scene.on('enter', function() {
+        alert('Hello');
+    }); #}
+
+
+    // Initialiser ScrollMagic
+    var controller = new ScrollMagic.Controller();
+
+    // Créer des scènes ScrollMagic pour chaque section
+    var scene1 = new ScrollMagic.Scene({
+        triggerElement: '#section1',
+        duration: 100
+    }).addTo(controller);
+
+    var scene2 = new ScrollMagic.Scene({
+        triggerElement: '#section2',
+        duration: 100
+    }).addTo(controller);
+
+    var scene3 = new ScrollMagic.Scene({
+        triggerElement: '#section3',
+        duration: 100
+    }).addTo(controller);
+
+    // Ajouter des écouteurs d'événements aux liens pour déclencher le défilement
+    $('nav ul li a').on('click', function(e) {
+        e.preventDefault(); // Empêcher le comportement par défaut du lien
+        var targetId = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(targetId).offset().top
+        }, 500); // Défilement doux vers la section ciblée
+    });
+</script>
+                                </div>
                                 <div class="vc_row row_padding_top small py-3 text-align-center" style="max-width:940px">
                                     <div class="row">
                                         <div class="col-md-6  d-flex align-items-center">
@@ -241,7 +473,7 @@
                                                 <input required name="name" type="text" id="name" size="30" value="" placeholder="{% trans %}Votre nom{% endtrans %}"><label class="input_label"></label>
                                             </div>                                                        
                                             <div class="email-box has-animation" data-delay="150">
-                                                <input required name="email" type="text" id="email" size="30" value="" placeholder="{% trans %}Votre email{% endtrans %}"><label class="input_label"></label>
+                                                <input required name="email" type="email" id="email" size="30" value="" placeholder="{% trans %}Votre email{% endtrans %}"><label class="input_label"></label>
                                             </div>                            
                                             <div class="message-box has-animation" data-delay="100">
                                                 <textarea required name="comments" cols="40" rows="4" id="comments" placeholder="{% trans %}Votre message{% endtrans %}" ></textarea><label class="input_label slow"></label>
@@ -335,4 +567,5 @@
     </div> 
     <div id="clone-image"></div>
     <div id="rotate-device"></div>
+    <a id="button"></a>
 {% endblock %} 
