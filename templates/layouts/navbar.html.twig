@@ -7,7 +7,7 @@
                 <img class="white-logo" src="{{asset('images/logo-white.png')}}" alt="ClaPat Logo">
             </a> 
         </div> 
-        <div class="socials-wrap d-none d-lg-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 20px;overflow: hidden;">  
+        <div class="socials-wrap mt-1 d-none d-lg-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 50px;overflow: hidden;">  
             <div class="d-flex align-items-center">              	
                 <div class=" "><i class="fa fa-share-alt" aria-hidden="true"></i></div> 
                 <a class="parallax-element" href=" " target="_blank"><img class="" width="20px" src="{{asset('images/lang/'~app.request.locale~'.png')}}"></a> 
@@ -41,7 +41,9 @@
                         </ul>            
                     </div>
                 </div> 
-            </div>          
+            </div>     
+                {# <button id="scrollToBottom">Défiler jusqu'au bas</button> #}
+ 
         </nav>  
         <div id="burger-wrapper" class="parallax-wrap">
             <div id="menu-burger" class="parallax-element">
@@ -69,7 +71,12 @@
                     $('.classic-menu').removeClass('header-shadow').fadeIn('fast');
                 }
                 console.log(translateY);
-            });  
+            });   
+            $('#scrollToBottom').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: -5080
+                }, 'slow');
+            });
         });
     </script>
     
