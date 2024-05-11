@@ -1,13 +1,12 @@
 
 <header class="classic-menu"  style="height:60px">
-    <div id="header-container" class="px-lg-4 py-lg-0"> 
-        <div id="logo" class="hide-ball">
-            <a class="ajax-link" data-type="page-transition" href="{{path('app_home')}}">
-                <img class="black-logo" src="{{asset('images/logo.png')}}" alt="ClaPat Logo">
-                <img class="white-logo" src="{{asset('images/logo-white.png')}}" alt="ClaPat Logo">
+    <div id="header-container" class="px-lg-0 py-lg-0"> 
+        <div id="logo" class="hide-ball" style="top:20px">
+            <a class="ajax-link mx-3" data-type="page-transition" style="font-family:GraphikLightItalic;color:black" href="{{path('app_home')}}">
+                Isalo    
             </a> 
         </div> 
-        <div class="socials-wrap mt-1 d-none d-lg-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 50px;overflow: hidden;">  
+        <div class="socials-wrap mx-3 mt-1 d-none d-xl-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 50px;overflow: hidden;">  
             <div class="d-flex align-items-center">              	
                 <div class=" "><i class="fa fa-share-alt" aria-hidden="true"></i></div> 
                 <a class="parallax-element" href=" " target="_blank"><img class="" width="20px" src="{{asset('images/lang/'~app.request.locale~'.png')}}"></a> 
@@ -24,7 +23,7 @@
                 </div>
             </ol>                
         </div>
-        <nav class="m-0 d-flex"> 
+        <nav class="m-0 d-flex bg-white" style="background-color:white !important"> 
             <div class="nav-height w-100">
                 <div class="outer w-100">
                     <div class="inner w-100">           
@@ -37,7 +36,7 @@
                                 </ul>
                             </li>                           
                             <li class="link menu-timeline p-0"><a class="ajax-link" data-type="page-transition" href="about.html"><span data-hover="About">About</span></a></li>                        
-                            <li class="link menu-timeline p-0"><a   href="#contact"><span data-hover="Contact">Contact</span></a></li>     
+                            <li class="link menu-timeline p-0"><a id="contact-nav"  href="#contact"><span data-hover="Contact">Contact</span></a></li>     
                         </ul>      
                     </div>
                 </div> 
@@ -47,8 +46,8 @@
         </nav>  
         <div id="burger-wrapper" class="parallax-wrap">
             <div id="menu-burger" class="parallax-element">
-                <span></span>
-                <span></span>
+                <span class="bg-dark"></span>
+                <span class="bg-dark"></span>
             </div>
         </div> 
 
