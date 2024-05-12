@@ -41,7 +41,7 @@
                     </div>
                 </div> 
             </div>     
-                {# <button id="scrollToBottom">Défiler jusqu'au bas</button> #}
+                <button ><a href="#scrollToBottom">Défiler jusqu'au bas</a></button>
  
         </nav>  
         <div id="burger-wrapper" class="parallax-wrap">
@@ -55,35 +55,11 @@
 </header>
 
     <script src="{{asset('assets/js/jquery.min.js')}}"></script> 
-    <script>
-        $(document).ready(function(){      
-            var btn = $('#button');
-            var contentDiv = document.getElementById('content-scroll');
-
-            $(document).on("mousemove", function() { 
-                var styles = $(".scroll-content").css("transform");
-                var translateY = parseFloat(styles.split(",")[5]);
-
-                if(translateY <= -120)
-                {  
-                    $('.classic-menu').addClass('bg-white');
-                    $('.classic-menu').addClass('header-shadow');
-                    btn.addClass('show');
-                } else { 
-                    $('.classic-menu').removeClass('bg-white').fadeIn('fast');
-                    $('.classic-menu').removeClass('header-shadow').fadeIn('fast');
-                    btn.removeClass('show');
-                }
-            {# console.log(translateY); #}
-            });   
-            btn.on('click', function(e) {
-                $('.scroll-content').css('transform', 'translate3d(0px, 0px, 0px)');
-            });
-            $('#scrollToBottom').on('click', function() {
-                $('html, body').animate({
-                    scrollTop: -5080
-                }, 'slow');
-            });
-        });
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+    <script> 
+        {# function fuck(){
+            console.log("alert"); 
+            SmoothScroll.scrollTo("#contact", true, "center center");
+        } #}
     </script>
     

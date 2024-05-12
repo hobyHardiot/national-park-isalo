@@ -1,132 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Navigation de lien interne</title>
-</head>
-<body> 
+{% extends 'base.html.twig' %}
 
-<div>
-    <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-    </ul>
-</div>
+{% block title %}Flore{% endblock %}
+{% block style %}
+    
+<style>
+#content-scroll{
+  overflow: visible;
+  width: 100%;
+  /* set a height because the contents are position: absolute, thus natively there's no height */
+  height: 4000px;
 
-<section id="section1">
-    <h2>Section 1</h2>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p>Ceci est la première section.</p>
-    <p><a href="#top">Retour en haut</a></p>
-</section>
+  background-image:
+    linear-gradient(rgba(255,255,255,.07) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255,255,255,.07) 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+</style>
+{% endblock %}
+{% block body %}
 
-<section id="section2">
-    <h2>Section 2</h2>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p>Ceci est la deuxième section.</p>
-    <p><a href="#top">Retour en haut</a></p>
-</section>
+	<main>		   
+        <div id="content-scroll"> 
+            <div class="vc_row row_padding_top small text-align-center"> 
+                <button id="test"> Section 1 
+                </button>
+            </div> 
+            <div class="vc_row row_padding_top small text-align-center">   
+                <h3 class="has-mask" data-delai="200">Les meilleurs flore de l’Isalo</h3> 
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 has-animation hide-ball " data-delai="50">
+                        <img style="border-radius:10px" src="images/faune.jpg" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6"> 
+                        <h5 class="has-mask ">Pachypodium</h5>
+                        <p class="lead has-animation" data-delay="100">Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="vc_row small text-align-center">  
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 has-animation hide-ball" data-delai="50">
+                        <img style="border-radius:10px" src="{{asset('images/vtt.jpg')}}" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6"> 
+                        <h5 class="has-mask ">Aloes isaloensis</h5>
+                        <p class="lead has-animation" data-delay="100">L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.</p> 
+                    </div>
+                </div>
+            </div>  
+            <div class="vc_row small text-align-center">  
+                <section id="section1">
+                    <h2>Section 1</h2>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                    <p>Ceci est la première section.</p>
+                </section> 
+            </div>     
+        </div>    
+	</main>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
-<section id="section3">
-    <h2>Section 3</h2>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p>Ceci est la troisième section.</p>
-    <p><a href="#top">Retour en haut</a></p>
-</section>
- 
+<script src="{{ asset('assets/js/smoothScroll.min.js') }}"></script>
+ <script> 
+    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-</body>
-</html>
+    ScrollTrigger.normalizeScroll(true)
+
+    // create the smooth scroller FIRST!
+    let smoother = ScrollSmoother.create({
+    smooth: 2,
+    effects: true,
+    normalizeScroll: true
+    }); 
+
+    document.querySelector("#test").addEventListener("click", e => { 
+        smoother.scrollTo("#section1", true, "center center"); 
+    });
+ </script>
+{% endblock %}
+

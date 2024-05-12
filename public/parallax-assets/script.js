@@ -26,26 +26,4 @@ window.addEventListener("mousemove", (e) => {
     rotateDegree = (xValue / (window.innerWidth / 2)) * 20;
     update(e.clientX);
 })
- 
-
-/*GSAP ANIMATION*/
-    
-let timeline = gsap.timeline();
-timeline.from(
-    ".text h2",
-    {
-        y: window.innerHeight - document.querySelector(".text h1").getBoundingClientRect().top,
-        duration:2,
-        opacity:0,
-    },
-    "2.5"
-)
-.from(
-    ".text h1",
-    {
-        y: -150,
-        duration:1.5,
-        opacity:0,
-    },
-    "3"
-)
+  
