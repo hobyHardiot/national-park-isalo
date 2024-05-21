@@ -1,5 +1,5 @@
 
-<header class="classic-menu"  style="height:60px">
+<header class="classic-menu" id="mynav" style="height:60px">
     <div id="header-container" class="px-lg-0 py-lg-0"> 
         <div id="logo" class="hide-ball" style="top:20px">
             <a class="ajax-link mx-3" data-type="page-transition" style="font-family:GraphikLightItalic;color:black" href="{{path('app_home')}}">
@@ -7,8 +7,7 @@
             </a> 
         </div> 
         <div class="socials-wrap mx-3 mt-1 d-none d-xl-flex" style="display:flex;flex-direction:row-reverse;height: 50px;width: 50px;overflow: hidden;">  
-            <div class="d-flex align-items-center">              	
-                <div class=" "><i class="fa fa-share-alt" aria-hidden="true"></i></div> 
+            <div class="d-flex align-items-center">              	 
                 <a class="parallax-element" href=" " target="_blank"><img class="" width="20px" src="{{asset('images/lang/'~app.request.locale~'.png')}}"></a> 
             </div>  
             <ol class="socials pt-3" style="position:absolute;top:15px;height: auto;line-height: 30px;position: relative;width: auto;text-align: center;bottom: 0;display: table;transform: translateX(15px);-webkit-transform: translateX(15px);">
@@ -28,20 +27,21 @@
                 <div class="outer w-100">
                     <div class="inner w-100">           
                         <ul data-breakpoint="1025" class="flexnav d-lg-flex d-block justify-content-around w-100">
-                            <li class="link menu-timeline p-0"><a href="#"><span data-hover="Spécificités">Spécificités</span></a>
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#accueil"><span data-hover="Accueil">Accueil</span></a></li>  
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#decouvrir"><span data-hover="Découvrir">Découvrir</span></a></li>  
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#specificite"><span data-hover="Spécificités">Spécificités</span></a>
                                 <ul class="p-2 pt-4 shadow-sm">
                                     <li><a class="ajax-link " href="{{path('app_paysage')}}" data-type="page-transition">Paysage</a></li>
                                     <li><a class="ajax-link" href="{{path('app_faune')}}" data-type="page-transition">Faune</a></li>
                                     <li><a class="ajax-link" href="{{path('app_flore')}}" data-type="page-transition">Flore</a></li> 
                                 </ul>
-                            </li>                           
-                            <li class="link menu-timeline p-0"><a class="ajax-link" data-type="page-transition" href="about.html"><span data-hover="About">About</span></a></li>                        
-                            <li class="link menu-timeline p-0"><a id="contact-nav"  href="#contact"><span data-hover="Contact">Contact</span></a></li>     
+                            </li>                                                  
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#hebergement"><span data-hover="Hebergement">Hebergement</span></a></li>         
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#contact"><span data-hover="Contact">Contact</span></a></li>     
                         </ul>      
                     </div>
                 </div> 
-            </div>     
-                <button ><a href="#scrollToBottom">Défiler jusqu'au bas</a></button>
+            </div>      
  
         </nav>  
         <div id="burger-wrapper" class="parallax-wrap">
@@ -55,11 +55,28 @@
 </header>
 
     <script src="{{asset('assets/js/jquery.min.js')}}"></script> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
     <script> 
-        {# function fuck(){
-            console.log("alert"); 
-            SmoothScroll.scrollTo("#contact", true, "center center");
-        } #}
+        $(document).ready(function(){
+            $(window).scroll(function() {
+                var nav = $('#mynav');
+                var btn = $('#button');
+
+                if ($(window).scrollTop() >= 100) { // Changez cette valeur selon vos besoins
+                    nav.addClass("bg-white");
+                    nav.addClass("header-shadow");
+                    btn.addClass('show');
+                } else {
+                    nav.removeClass("bg-white");
+                    nav.removeClass("header-shadow");
+                    btn.removeClass('show');
+                }
+            });
+            $('#button').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                });  
+            });
+    
+        });
     </script>
     

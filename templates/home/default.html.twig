@@ -1,118 +1,160 @@
-{% extends 'base.html.twig' %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Scroll Effect</title>
+    <style>
 
-{% block title %}Flore{% endblock %}
-{% block style %}
-    
-<style>
-#content-scroll{
-  overflow: visible;
-  width: 100%;
-  /* set a height because the contents are position: absolute, thus natively there's no height */
-  height: 4000px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
-  background-image:
-    linear-gradient(rgba(255,255,255,.07) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(255,255,255,.07) 2px, transparent 2px),
-    linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
-  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+* {
+  box-sizing: border-box
 }
-</style>
-{% endblock %}
-{% block body %}
 
-	<main>		   
-        <div id="content-scroll"> 
-            <div class="vc_row row_padding_top small text-align-center"> 
-                <button id="test"> Section 1 
-                </button>
-            </div> 
-            <div class="vc_row row_padding_top small text-align-center">   
-                <h3 class="has-mask" data-delai="200">Les meilleurs flore de l’Isalo</h3> 
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6 has-animation hide-ball " data-delai="50">
-                        <img style="border-radius:10px" src="images/faune.jpg" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-                    </div>
-                    <div class="col-lg-6"> 
-                        <h5 class="has-mask ">Pachypodium</h5>
-                        <p class="lead has-animation" data-delay="100">Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.</p> 
-                    </div>
-                </div>
-            </div>
-            <div class="vc_row small text-align-center">  
-                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6 has-animation hide-ball" data-delai="50">
-                        <img style="border-radius:10px" src="{{asset('images/vtt.jpg')}}" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-                    </div>
-                    <div class="col-lg-6"> 
-                        <h5 class="has-mask ">Aloes isaloensis</h5>
-                        <p class="lead has-animation" data-delay="100">L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.</p> 
-                    </div>
-                </div>
-            </div>  
-            <div class="vc_row small text-align-center">  
-                <section id="section1">
-                    <h2>Section 1</h2>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                    <p>Ceci est la première section.</p>
-                </section> 
-            </div>     
-        </div>    
-	</main>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.side-bar {
+  width: 160px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.6rem 0.3rem;
+  font-weight: 400;
+  transition: all ease-out 250ms;
+}
+
+nav li a:hover {
+  color: lime;
+}
+
+.main-content {
+  margin-left: 160px;
+}
+
+section {
+  background-color: #f2f2f2;
+  height: 90vh;
+  margin:0;
+  padding:2.5rem 4rem;
+}
+
+section:nth-of-type(2n) {
+  background-color: #ccc;
+}
+
+section:last-of-type {
+  height: 100vh;
+}
+
+h1 {
+  color: #444;
+  font-weight: 600;
+}
+
+.active {
+  color: lime; 
+  font-weight: 600;
+}
+    </style>
+</head>
+<body>
+<div class="side-bar">
+  <nav class="navigation">
+    <ul>
+      <li>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Gallery</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<div class="main-content">
+  <section id="about">
+    <h1>About</h1>
+    <p>This is a fork of <a href="https://codepen.io/dbilanoski/pen/LabpzG">the original by Danilo Bilanoski</a>, updated to allow the sections to be placed inside a relative parent. See the JS file comments for details.</p>
+  </section>
+  <section id="products">
+    <h1>Products</h1>
+  </section>
+  <section id="services">
+    <h1>Services</h1>
+  </section>
+  <section id="contact">
+    <h1>Contact</h1>
+  </section>
+  <section id="gallery">
+    <h1>Gallery</h1>
+  </section>
+</div>
+    <script>
+        // Get all sections that have an ID defined
+const sections = document.querySelectorAll("section[id]");
+
+// Add an event listener listening for scroll
+window.addEventListener("scroll", navHighlighter);
+
+function navHighlighter() {
+  
+  // Get current scroll position
+  let scrollY = window.pageYOffset;
+  
+  // Now we loop through sections to get height, top and ID values for each
+  sections.forEach(current => {
+    const sectionHeight = current.offsetHeight;
+  
+    // Original:
+    // const sectionTop = current.offsetTop - 50;
+    //  
+    // Alex Turnwall's update:
+    // Updated original line (above) to use getBoundingClientRect instead of offsetTop, based on:
+    // https://plainjs.com/javascript/styles/get-the-position-of-an-element-relative-to-the-document-24/
+    // https://newbedev.com/difference-between-getboundingclientrect-top-and-offsettop
+    // This allows the use of sections inside a relative parent, which I'm not using here, but needed for a project
+    //
+    const sectionTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
+    sectionId = current.getAttribute("id");
     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-<script src="{{ asset('assets/js/smoothScroll.min.js') }}"></script>
- <script> 
-    gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-
-    ScrollTrigger.normalizeScroll(true)
-
-    // create the smooth scroller FIRST!
-    let smoother = ScrollSmoother.create({
-    smooth: 2,
-    effects: true,
-    normalizeScroll: true
-    }); 
-
-    document.querySelector("#test").addEventListener("click", e => { 
-        smoother.scrollTo("#section1", true, "center center"); 
-    });
- </script>
-{% endblock %}
-
+    /*
+    - If our current scroll position enters the space where current section on screen is, add .active class to corresponding navigation link, else remove it
+    - To know which link needs an active class, we use sectionId variable we are getting while looping through sections as an selector
+    */
+    if (
+      scrollY > sectionTop &&
+      scrollY <= sectionTop + sectionHeight
+    ){
+      document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
+    } else {
+      document.querySelector(".navigation a[href*=" + sectionId + "]").classList.remove("active");
+    }
+  });
+}
+    </script>
+</body>
+</html>

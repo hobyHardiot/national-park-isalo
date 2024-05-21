@@ -8,9 +8,9 @@
         }
         #button {
         display: inline-block;
-        background-color: #FF9800;
-        width: 50px;
-        height: 50px;
+        background-color: rgb(28, 228, 213);
+        width: 40px;
+        height: 40px;
         text-align: center;
         border-radius: 4px;
         position: fixed;
@@ -27,7 +27,7 @@
         font-family: FontAwesome;
         font-weight: normal;
         font-style: normal;
-        font-size: 2em;
+        font-size: 1.50em;
         line-height: 50px;
         color: #fff;
         }
@@ -99,7 +99,7 @@
                 <div id="content-scroll"> 
                     <div id="main"> 
                         <div id="main-content"  class="light-content"> 
-                            <div class=" " style="position: relative;height: 100vh;width: 100vw;overflow: hidden;z-index:-10 ">
+                            <div id="accueil" class=" " style="position: relative;height: 100vh;width: 100vw;overflow: hidden;z-index:-10 ">
                                 <img src="{{asset('images/img-header/bg.png')}}" data-speedx="0.1" data-speedy="0.2"  data-speedz="0" data-rotation="1" data-distance="" class="parallax bg-img"> 
                                 <img src="{{asset('images/img-header/bg1.png')}}" data-speedx="0.13" data-speedy="0.21"  data-speedz="0" data-rotation="1" data-distance="" class="parallax bg1-img"> 
                                 <img src="{{asset('images/img-header/3.png')}}" data-speedx="0.14" data-speedy="0.22"   data-speedz="0" data-rotation="1" data-distance="" class="parallax img-3">
@@ -112,8 +112,7 @@
                             </div>
                             <div id="main-page-content"> 
                                 <div class="vc_row row_padding_top small text-align-center"> 
-                                    <hr> 
-                                    <button id="goToContact" class="btn btn-primary">Contactez-nous</button>
+                                    <hr>  
 
                                     <h2 class="has-mask animate__zoomIn">Love the trees until their leaves fall off and encourage them to try again next year.</h2> 
                                 </div> 
@@ -123,7 +122,7 @@
                                         <figcaption>Image Caption</figcaption>
                                     </figure> 
                                 </div> 
-                                <div class="vc_row row_padding_top row_padding_bottom"> 
+                                <div id="decouvrir" class="vc_row row_padding_top row_padding_bottom"> 
                                     <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-3 g-3">
                                         <div class="row rounded-lg"> 
                                             <div class="col-sm-12 order-sm-2">
@@ -160,7 +159,7 @@
                                         {% include "home/localisation.html.twig" %} 
                                     </div>
                                 </div> 
-                                <div class="vc_row row_padding_top small text-align-center">
+                                <div id="specificite" class="vc_row row_padding_top small text-align-center">
                                     <h2 class="pb-2 has-mask">{% trans %}Spécificités{% endtrans %}</h2> 
                                     <h6 class="has-mask fs-5 fw-lighter" style="font-family:GraphikRegular;font-size:14px !"  data-delay="10">{% trans %}Le parc National Terrestre Isalo est une représentation écologique unique au sein du réseau Parcs Nationaux Madagascar : un massif ruiniforme de grès continental datant du jurassique avec sa géomorphologie typique et sa végétation rupicole endémique (Aloès, Euphorbes, Pachypodes, Kalanchoe …) et la faune spécifique de cet habitat exceptionnel (reptiles de rochers dont la grande majorité sont endémiques).{% endtrans %}</h6>  
                                 </div> 
@@ -210,8 +209,7 @@
                                             <!--/Section Slide -->
                                         </div>
                                     </div>
-                                </div>
-                                
+                                </div> 
                                 <br>
                                 <br>
                                 <br> 
@@ -264,7 +262,7 @@
                                         </div>
                                     </div>
                                 </div>  
-                                <div class="vc_row row_padding_top small py-3 text-align-center" style="max-width:940px">
+                                <div id="hebergement" class="vc_row row_padding_top small text-align-center" style="max-width:940px">
                                     <div class="row">
                                         <div class="col-md-6  d-flex align-items-center">
                                             <div class=" " style="border:none !important">
@@ -292,12 +290,7 @@
                                         </div>
                                     </div>
                                 </div> 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <div id="contact" class="vc_row small text-align-center">
+                                <div id="contact" class="vc_row small row_padding_top text-align-center">
                                     
                                     <h2 class="has-mask  affiche" data-delay="10">{% trans %}Contactez nous{% endtrans %}</h2>
                                         
@@ -405,5 +398,9 @@
     </div> 
     <div id="clone-image"></div>
     <div id="rotate-device"></div>
-    <a id="button"></a>
+    <a id="button" class="d-flex align-items-center justify-content-center"></a>
+    <script>
+    document.getElementById('button').addEventListener('click', function() {
+    });
+    </script>
 {% endblock %} 
