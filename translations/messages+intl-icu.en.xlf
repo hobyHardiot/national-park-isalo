@@ -194,7 +194,7 @@
         <target>269 km from Fianarantsoa</target>
       </trans-unit>
       <trans-unit id="sdj0_.L" resname="à 80 km d’ Ihosy">
-        <source>80 km from Ihosy</source>
+        <source>à 80 km d’ Ihosy</source>
         <target>80 km from Ihosy</target>
       </trans-unit>
       <trans-unit id="06AI7xM" resname="Region">
@@ -228,6 +228,132 @@
       <trans-unit id="lXXwuWP" resname="4 heures de route">
         <source>4 heures de route</source>
         <target>4 hours drive</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="l3rmyww" resname="Découvrir">
+        <source>Découvrir</source>
+        <target>Discovery</target>
+      </trans-unit>
+      <trans-unit id="7.eBINn" resname="Hebergement">
+        <source>Hebergement</source>
+        <target>Hebergement</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="EyUTzq0" resname="du parc national Isalo">
+        <source>du parc national Isalo</source>
+        <target>__du parc national Isalo</target>
+      </trans-unit>
+      <trans-unit id="XdlVbq." resname="&lt;span&gt;L&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#10;                                        &lt;span&gt;S&lt;/span&gt;&#10;                                        &lt;span&gt; &lt;/span&gt;&#10;                                        &lt;span&gt;F&lt;/span&gt;&#10;                                        &lt;span&gt;A&lt;/span&gt;&#10;                                        &lt;span&gt;U&lt;/span&gt;&#10;                                        &lt;span&gt;N&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#9;&#10;                                        &lt;span&gt;S&lt;/span&gt;">
+        <source>&lt;span&gt;L&lt;/span&gt;
+                                        &lt;span&gt;E&lt;/span&gt;
+                                        &lt;span&gt;S&lt;/span&gt;
+                                        &lt;span&gt; &lt;/span&gt;
+                                        &lt;span&gt;F&lt;/span&gt;
+                                        &lt;span&gt;A&lt;/span&gt;
+                                        &lt;span&gt;U&lt;/span&gt;
+                                        &lt;span&gt;N&lt;/span&gt;
+                                        &lt;span&gt;E&lt;/span&gt;	
+                                        &lt;span&gt;S&lt;/span&gt;</source>
+        <target><![CDATA[__<span>L</span>
+                                        <span>E</span>
+                                        <span>S</span>
+                                        <span> </span>
+                                        <span>F</span>
+                                        <span>A</span>
+                                        <span>U</span>
+                                        <span>N</span>
+                                        <span>E</span>	
+                                        <span>S</span>]]></target>
+      </trans-unit>
+      <trans-unit id="qLyAkkf" resname="Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.">
+        <source>Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.</source>
+        <target>__Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.</target>
+      </trans-unit>
+      <trans-unit id="fgtyaSy" resname="77 espèces d’oiseaux">
+        <source>77 espèces d’oiseaux</source>
+        <target>__77 espèces d’oiseaux</target>
+      </trans-unit>
+      <trans-unit id="i98Tios" resname="vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.">
+        <source>vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.</source>
+        <target>__vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.</target>
+      </trans-unit>
+      <trans-unit id="F9O2zQ_" resname="On y trouve aussi">
+        <source>On y trouve aussi</source>
+        <target>__On y trouve aussi</target>
+      </trans-unit>
+      <trans-unit id="SIfPdmR" resname="14 espèces de lémuriens">
+        <source>14 espèces de lémuriens</source>
+        <target>__14 espèces de lémuriens</target>
+      </trans-unit>
+      <trans-unit id="JYC1nas" resname="diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.">
+        <source>diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.</source>
+        <target>__diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.</target>
+      </trans-unit>
+      <trans-unit id="XufaxDJ" resname="Grenouille">
+        <source>Grenouille</source>
+        <target>__Grenouille</target>
+      </trans-unit>
+      <trans-unit id="QecApIk" resname="à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.">
+        <source>à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.</source>
+        <target>__à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.</target>
+      </trans-unit>
+      <trans-unit id="fxu9xQi" resname="Serpents">
+        <source>Serpents</source>
+        <target>__Serpents</target>
+      </trans-unit>
+      <trans-unit id="AWwvrUR" resname="que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.">
+        <source>que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.</source>
+        <target>__que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.</target>
+      </trans-unit>
+      <trans-unit id="rIeUfRK" resname="Espèce">
+        <source>Espèce</source>
+        <target>__Espèce</target>
+      </trans-unit>
+      <trans-unit id="BKREGUa" resname="endémique">
+        <source>endémique</source>
+        <target>__endémique</target>
+      </trans-unit>
+      <trans-unit id="9sBz2LN" resname="à Madagascar">
+        <source>à Madagascar</source>
+        <target>__à Madagascar</target>
+      </trans-unit>
+      <trans-unit id="W3_Y.wC" resname="Tous les circuits">
+        <source>Tous les circuits</source>
+        <target>__Tous les circuits</target>
+      </trans-unit>
+      <trans-unit id="cnSFtbL" resname="Toute l’année">
+        <source>Toute l’année</source>
+        <target>__Toute l’année</target>
+      </trans-unit>
+      <trans-unit id="SQKSaRC" resname="Circuit Namaza">
+        <source>Circuit Namaza</source>
+        <target>__Circuit Namaza</target>
+      </trans-unit>
+      <trans-unit id="MQV3s4Q" resname="Saison de pluie">
+        <source>Saison de pluie</source>
+        <target>__Saison de pluie</target>
+      </trans-unit>
+      <trans-unit id="ldDgA1y" resname="Insecte , il peut être pris pour une fleur&lt;br&gt;Tous les circuits en forêt">
+        <source>Insecte , il peut être pris pour une fleur&lt;br&gt;Tous les circuits en forêt</source>
+        <target><![CDATA[__Insecte , il peut être pris pour une fleur<br>Tous les circuits en forêt]]></target>
+      </trans-unit>
+      <trans-unit id="9deedsH" resname="Voir egalement">
+        <source>Voir egalement</source>
+        <target>__Voir egalement</target>
+      </trans-unit>
+      <trans-unit id="eZ11fIm" resname="Les paysages">
+        <source>Les paysages</source>
+        <target>__Les paysages</target>
+      </trans-unit>
+      <trans-unit id="THtRPUg" resname="Les flores">
+        <source>Les flores</source>
+        <target>__Les flores</target>
       </trans-unit>
     </body>
   </file>

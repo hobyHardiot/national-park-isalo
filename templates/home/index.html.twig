@@ -14,8 +14,9 @@
         text-align: center;
         border-radius: 4px;
         position: fixed;
-        bottom: 30px;
-        right: 30px;
+        right: 65px;
+        bottom: 25px;
+        z-index: 1;
         transition: background-color .3s, 
             opacity .5s, visibility .5s;
         opacity: 0;
@@ -398,9 +399,28 @@
     </div> 
     <div id="clone-image"></div>
     <div id="rotate-device"></div>
-    <a id="button" class="d-flex align-items-center justify-content-center"></a>
+    <a id="button" style="z-index:1" class="d-flex align-items-center justify-content-center"></a>
     <script>
     document.getElementById('button').addEventListener('click', function() {
     });
+    </script> 
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script>// Sélectionner l'élément par sa classe 
+    window.botpressWebChat.init({
+        "composerPlaceholder": "Send message to start", 
+        "botId": "c652fdb1-af9c-414e-8692-042e9370bd84",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "c652fdb1-af9c-414e-8692-042e9370bd84",
+        "webhookId": "a895e82c-d00a-4cf3-8ec4-7eb81993b063",
+        "lazySocket": true,
+        "themeName": "prism",
+        "frontendVersion": "v2",
+        "theme": "prism",
+        "themeColor": "#2563eb",
+        "stylesheet": "https://webchat-styler-css.botpress.app/prod/4a21ac8b-70ab-4020-b1be-2b686d8bf7cf/v93096/style.css",
+        "enableConversationDeletion":true,
+        "showPoweredBy": false,
+    });  
     </script>
 {% endblock %} 

@@ -36,8 +36,8 @@
                         <div id="hero-styles" class="parallax-onscroll">
                             <div id="hero-caption">
                                 <div class="inner">
-                                    <div class="hero-subtitle text-white">du parc national Isalo</div>    
-                                    <div class="hero-title text-white"> 
+                                    <div class="hero-subtitle text-white">{% trans %}du parc national Isalo{% endtrans %}</div>    
+                                    <div class="hero-title text-white"> {% trans %}
                                         <span>L</span>
                                         <span>E</span>
                                         <span>S</span>
@@ -47,7 +47,7 @@
                                         <span>U</span>
                                         <span>N</span>
                                         <span>E</span>	
-                                        <span>S</span>	
+                                        <span>S</span>{% endtrans %}
                                     </div>                                
                                 </div>
                             </div>                                            
@@ -65,8 +65,8 @@
                         <!-- Main Page Content -->
                         <div id="main-page-content">	 
                             <div class="vc_row row_padding_top small text-align-center"> 
-                                <p class="has-animation fs-5" data-delay="10">Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.  <b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> 77 espèces d’oiseaux </b>vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.</p>
-                                <p class="has-animation fs-5" data-delay="100">On y trouve aussi  <b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> 14 espèces de lémuriens</b> diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.</p>
+                                <p class="has-animation fs-5" data-delay="10">{% trans %}Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.  {% endtrans %}<b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);"> {% trans %}77 espèces d’oiseaux{% endtrans %} </b>{% trans %}vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.{% endtrans %}</p>
+                                <p class="has-animation fs-5" data-delay="100">{% trans %}On y trouve aussi {% endtrans %} <b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %} 14 espèces de lémuriens{% endtrans %}</b> {% trans %}diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.{% endtrans %}</p>
                             </div>
                             <div class="vc_row row_padding_top small text-align-center">  
                                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -75,7 +75,7 @@
                                     </div>
                                     <div class="col-lg-6"> 
                                         <h3 class="has-mask ">Tular golden frog</h3>
-                                        <p class="lead has-animation" data-delay="100"><i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Grenouille</b></i> à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.</p> 
+                                        <p class="lead has-animation" data-delay="100"><i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %}Grenouille{% endtrans %}</b></i>{% trans %} à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.{% endtrans %}</p> 
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                                     </div>
                                     <div class="col-lg-6"> 
                                         <h3 class="has-mask">Boa de Dumeril</h3>
-                                        <p class="lead has-animation" data-delay="100"><i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Serpents<b></i> que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.</p> 
+                                        <p class="lead has-animation" data-delay="100"><i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %}Serpents{% endtrans %}<b></i>{% trans %} que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.{% endtrans %}</p> 
                                     </div>
                                 </div>
                             </div>  
@@ -100,7 +100,7 @@
                                         <div class="card-body">
                                             <h5 class="has-mask">Merle de Benson</h5>
                                             <p class="card-text has-animation" data-delay="0">
-                                                Espèce <span class="fw-bold">endémique</span> à Madagascar <br>Tous les circuits <br> Toute l’année
+                                                {% trans %}Espèce{% endtrans %} <span class="fw-bold">{% trans %}endémique{% endtrans %}</span>{% trans %} à Madagascar {% endtrans %}<br>{% trans %}Tous les circuits {% endtrans %}<br>{% trans %} Toute l’année{% endtrans %}
                                             </p>
                                         </div>
                                     </div>
@@ -114,7 +114,7 @@
                                         <div class="card-body">
                                             <h5 class="has-mask">Perinet night snake</h5>
                                             <p class="card-text has-animation" data-delay="50">
-                                                Serpent qui vit dans les forêts humides <br>Circuit Namaza<br> Saison de pluie
+                                                {% trans %}Circuit Namaza{% endtrans %}<br><br>{% trans %}Saison de pluie{% endtrans %} 
                                             </p>
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                         <div class="card-body">
                                             <h5 class="has-mask">Flatid Bug nymphus</h5>
                                             <p class="card-text has-animation" data-delay="100">
-                                                Insecte , il peut être pris pour une fleur<br>Tous les circuits en forêt<br>Saison de pluie
+                                                {% trans %}Insecte , il peut être pris pour une fleur<br>Tous les circuits en forêt{% endtrans %}<br>{% trans %}Saison de pluie{% endtrans %}
                                             </p>
                                         </div>
                                     </div>
@@ -158,7 +158,7 @@
 
 	 
                     <div class="vc_row row_padding_top small text-align-center"> 
-                        <p class="has-animation fs-5" data-delay="10">Voir egalement</p>
+                        <p class="has-animation fs-5" data-delay="10">{% trans %}Voir egalement{% endtrans %}</p>
                     </div>
                     <div class="vc_row small mb-5 justify-content-center row row-cols-1 row-cols-sm-2 g-4" style="gap:20px">
                         <a href="{{path('app_paysage')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
@@ -167,7 +167,7 @@
                                     <use xlink:href="#collection"></use>
                                     </svg>
                                 </div>
-                                <h4 class="fw-semibold mb-0">Les paysages</h4>  
+                                <h4 class="fw-semibold mb-0">{% trans %}Les paysages{% endtrans %}</h4>  
                         </a>
                         <a href="{{path('app_flore')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
                             <div class="feature-icon-small d-inline-flex align-items-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -175,7 +175,7 @@
                                 <use xlink:href="#collection"></use>
                                 </svg>
                             </div>
-                            <h4 class="fw-semibold mb-0">Les flores</h4>  
+                            <h4 class="fw-semibold mb-0">{% trans %}Les flores{% endtrans %}</h4>  
                         </a> 
                     </div>    
                     <br>
