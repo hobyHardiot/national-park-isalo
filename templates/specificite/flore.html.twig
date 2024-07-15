@@ -22,24 +22,7 @@
     
         <!-- Page Content -->
         <div id="page-content" class="">       
-            
-            
-            <!-- Sidebar Overlay -->
-            <div id="sidebar-overlay">                
-                <div id="close-sidebar"></div>
-                <div class="outer">
-                    <div class="inner">    
-                        <ul id="filters">
-                            <li class="sidebar-timeline link"><a id="all" href="#" data-filter="*" data-hover="ALL" class="active ">ALL</a></li>
-                            <li class="sidebar-timeline link"><a href="#" data-filter=".photo" data-hover="PHOTO" class="">PHOTO</a></li>                                                       
-                            <li class="sidebar-timeline link"><a href="#" data-filter=".architecture" data-hover="ARCHITECTURE" class="">ARCHITECTURE</a></li> 
-                            <li class="sidebar-timeline link"><a href="#" data-filter=".design" data-hover="DESIGN" class="">DESIGN</a></li>
-                            <li class="sidebar-timeline link"><a href="#" data-filter=".video" data-hover="VIDEO" class="">VIDEO</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Sidebar Overlay -->
+             
             
             
             {% include 'layouts/navbar.html.twig' %}
@@ -55,8 +38,8 @@
                         <div id="hero-styles" class="parallax-onscroll">
                             <div id="hero-caption">
                                 <div class="inner">
-                                    <div class="hero-subtitle text-white">du parc national Isalo</div>    
-                                    <div class="hero-title text-white">
+                                    <div class="hero-subtitle text-white">{% trans %}du parc national Isalo{% endtrans %}</div>    
+                                    <div class="hero-title text-white">{% trans %}
                                         <span>L</span>
                                         <span>E</span>
                                         <span>S</span>
@@ -66,7 +49,7 @@
                                         <span>O</span>
                                         <span>R</span>
                                         <span>E</span>	
-                                        <span>S</span>	
+                                        <span>S</span>	{% endtrans %}
                                     </div>                                
                                 </div>
                             </div>                                            
@@ -74,7 +57,7 @@
                     </div>
                     <div id="hero-bg-wrapper">
                         <div id="hero-image-parallax">
-                            <div id="hero-bg-image" style="background-image:url(images/flore.jpg)"></div>
+                            <div id="hero-bg-image" style="background-image:url(images/Vu-vers-le-parc.jpg)"></div>
                         </div>
                     </div>     
                          
@@ -84,19 +67,19 @@
                         <!-- Main Page Content -->
                         <div id="main-page-content">	 
                             <div class="vc_row row_padding_top small text-align-center"> 
-                                <p class="has-animation fs-5" data-delay="10">La flore du parc national Isalo est également unique au monde,il compte plus de <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">400 espèces floristiques.</b></i>
- Beaucoup d’entre elles sont endémiques de Madagascar comme le Pachypodium rosulatum, famille des Apocynaceae, le Catharantus ovalis qui est une plante médicinale que l’on ne trouve nulle part ailleurs dans le monde.</p>
-                                <p class="has-animation fs-5" data-delay="100">La savane de l’Isalo est colonisée par des palmiers typiques de cette région : le Bismarkia nobilis, « Satrana » qui résiste au feu.</p>
+                                <p class="has-animation fs-5" data-delay="10">{% trans %}La flore du parc national Isalo est également unique au monde,il compte plus de {% endtrans %}<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">{% trans %}400 espèces floristiques.{% endtrans %}</b></i>
+ {% trans %}Beaucoup d’entre elles sont endémiques de Madagascar comme le Pachypodium rosulatum, famille des Apocynaceae, le Catharantus ovalis qui est une plante médicinale que l’on ne trouve nulle part ailleurs dans le monde.{% endtrans %}</p>
+                                <p class="has-animation fs-5" data-delay="100">{% trans %}La savane de l’Isalo est colonisée par des palmiers typiques de cette région : le Bismarkia nobilis, « Satrana » qui résiste au feu.{% endtrans %}</p>
                             </div> 
                             <div class="vc_row row_padding_top small text-align-center">   
-                                <h3 class="has-mask" data-delai="200">Les meilleurs flore de l’Isalo</h3> 
+                                <h3 class="has-mask" data-delai="200">{% trans %}Les meilleurs flore de l’Isalo{% endtrans %}</h3> 
                                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                                     <div class="col-10 col-sm-8 col-lg-6 has-animation hide-ball " data-delai="50">
                                         <img style="border-radius:10px" src="images/faune.jpg" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                                     </div>
                                     <div class="col-lg-6"> 
                                         <h5 class="has-mask ">Pachypodium</h5>
-                                        <p class="lead has-animation" data-delay="100">Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.</p> 
+                                        <p class="lead has-animation" data-delay="100">{% trans %}Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.{% endtrans %}</p> 
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +90,7 @@
                                     </div>
                                     <div class="col-lg-6"> 
                                         <h5 class="has-mask ">Aloes isaloensis</h5>
-                                        <p class="lead has-animation" data-delay="100">L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.</p> 
+                                        <p class="lead has-animation" data-delay="100">{% trans %}L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.{% endtrans %}</p> 
                                     </div>
                                 </div>
                             </div>  
@@ -117,8 +100,8 @@
                                         <img style="border-radius:10px" src="images/faune.jpg" class="d-block mx-lg-auto shadow img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                                     </div>
                                     <div class="col-lg-6"> 
-                                        <h5 class="has-mask ">Le Bismarkia nobilis</h5>
-                                        <p class="lead has-animation" data-delay="100">Le Bismarkia nobilis, de son nom malgache <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Satrana </b></i>. C’est un palmier typique de l’Isalo qui a la particularité de<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">résister au feu</b></i> . Ses branches sont utilisées par les villageois en sparterie, industrie de l’alfa, une fibre végétale dure.</p> 
+                                        <h5 class="has-mask ">{% trans %}Le Bismarkia nobilis{% endtrans %}</h5>
+                                        <p class="lead has-animation" data-delay="100">{% trans %}Le Bismarkia nobilis, de son nom malgache {% endtrans %}<i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">Satrana </b></i>.{% trans %}C’est un palmier typique de l’Isalo qui a la particularité de{% endtrans %} <i><b style="background-image: linear-gradient(rgb(221, 252, 250) calc(100% - 10px), rgb(221, 252, 250) 10px);">résister au feu</b></i> .{% trans %} Ses branches sont utilisées par les villageois en sparterie, industrie de l’alfa, une fibre végétale dure.{% endtrans %}</p> 
                                     </div>
                                 </div>
                             </div>    
@@ -128,7 +111,7 @@
                                 
                     </div> 
                     <div class="vc_row row_padding_top small text-align-center"> 
-                        <p class="has-animation fs-5" data-delay="10">Voir egalement</p>
+                        <p class="has-animation fs-5" data-delay="10">{% trans %}Voir egalement{% endtrans %}</p>
                     </div>
                     <div class="vc_row small mb-5 justify-content-center row row-cols-1 row-cols-sm-2 g-4" style="gap:20px">
                         <a href="{{path('app_paysage')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
@@ -137,7 +120,7 @@
                                     <use xlink:href="#collection"></use>
                                     </svg>
                                 </div>
-                                <h4 class="fw-semibold mb-0">Les paysages</h4>  
+                                <h4 class="fw-semibold mb-0">{% trans %}Les paysages{% endtrans %}</h4>  
                         </a>
                         <a href="{{path('app_faune')}}" class="d-flex page-manaraka p-3 shadow-sm btn col-3 align-items-center flex-column gap-2">
                             <div class="feature-icon-small d-inline-flex align-items-center text-bg-primary bg-gradient fs-4 rounded-3">
@@ -145,7 +128,7 @@
                                 <use xlink:href="#collection"></use>
                                 </svg>
                             </div>
-                            <h4 class="fw-semibold mb-0">Les faune</h4>  
+                            <h4 class="fw-semibold mb-0">{% trans %}Les faune{% endtrans %}</h4>  
                         </a> 
                     </div>    
                     <br>

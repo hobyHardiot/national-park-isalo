@@ -1,4 +1,5 @@
 {
+    fleuria
     "doctrine/doctrine-bundle": {
         "version": "2.12",
         "recipe": {

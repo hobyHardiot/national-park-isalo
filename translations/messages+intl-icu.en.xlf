@@ -247,7 +247,7 @@
       </trans-unit>
       <trans-unit id="EyUTzq0" resname="du parc national Isalo">
         <source>du parc national Isalo</source>
-        <target>__du parc national Isalo</target>
+        <target>from Isalo National Park</target>
       </trans-unit>
       <trans-unit id="XdlVbq." resname="&lt;span&gt;L&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#10;                                        &lt;span&gt;S&lt;/span&gt;&#10;                                        &lt;span&gt; &lt;/span&gt;&#10;                                        &lt;span&gt;F&lt;/span&gt;&#10;                                        &lt;span&gt;A&lt;/span&gt;&#10;                                        &lt;span&gt;U&lt;/span&gt;&#10;                                        &lt;span&gt;N&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#9;&#10;                                        &lt;span&gt;S&lt;/span&gt;">
         <source>&lt;span&gt;L&lt;/span&gt;
@@ -260,100 +260,169 @@
                                         &lt;span&gt;N&lt;/span&gt;
                                         &lt;span&gt;E&lt;/span&gt;	
                                         &lt;span&gt;S&lt;/span&gt;</source>
-        <target><![CDATA[__<span>L</span>
+        <target><![CDATA[<span>T</span>
+                                        <span>H</span>
                                         <span>E</span>
-                                        <span>S</span>
                                         <span> </span>
                                         <span>F</span>
                                         <span>A</span>
                                         <span>U</span>
                                         <span>N</span>
-                                        <span>E</span>	
-                                        <span>S</span>]]></target>
+                                        <span>A</span>	 ]]></target>
       </trans-unit>
       <trans-unit id="qLyAkkf" resname="Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.">
         <source>Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.</source>
-        <target>__Les animaux de l’Isalo sont typiques du climat, de la végétation et de la géomorphologie du parc. Ce sont, pour une très forte majorité, des espèces endémiques.</target>
+        <target>The animals of Isalo are typical of the climate, vegetation and geomorphology of the park. The vast majority of these are endemic species.</target>
       </trans-unit>
       <trans-unit id="fgtyaSy" resname="77 espèces d’oiseaux">
         <source>77 espèces d’oiseaux</source>
-        <target>__77 espèces d’oiseaux</target>
+        <target>77 species of birds</target>
       </trans-unit>
       <trans-unit id="i98Tios" resname="vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.">
         <source>vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.</source>
-        <target>__vivent à Isalo dont le merle de Benson ou Pseudocosyphus bensoni, une espèce endémique de Madagascar qui est très protégée.</target>
+        <target>live in Isalo including the Benson's blackbird or Pseudocosyphus bensoni, a species endemic to Madagascar which is very protected.</target>
       </trans-unit>
       <trans-unit id="F9O2zQ_" resname="On y trouve aussi">
         <source>On y trouve aussi</source>
-        <target>__On y trouve aussi</target>
+        <target>We also find</target>
       </trans-unit>
       <trans-unit id="SIfPdmR" resname="14 espèces de lémuriens">
         <source>14 espèces de lémuriens</source>
-        <target>__14 espèces de lémuriens</target>
+        <target>14 species of lemurs</target>
       </trans-unit>
       <trans-unit id="JYC1nas" resname="diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.">
         <source>diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.</source>
-        <target>__diurnes et nocturnes dont 7 introduites et 7 endémiques de la region. Reptiles, amphibiens, carnivores, insectivores et rongeurs complètent la liste.</target>
+        <target>diurnal and nocturnal including 7 introduced and 7 endemic to the region. Reptiles, amphibians, carnivores, insectivores and rodents complete the list.</target>
       </trans-unit>
       <trans-unit id="XufaxDJ" resname="Grenouille">
         <source>Grenouille</source>
-        <target>__Grenouille</target>
+        <target>Frog</target>
       </trans-unit>
       <trans-unit id="QecApIk" resname="à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.">
         <source>à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.</source>
-        <target>__à cuisse de couleur bleue, dos jaune, poitrine pointée et noir, on la trouve aux abords de la cascade des nymphes en saison des pluies.</target>
+        <target>with a blue thigh, yellow back, pointed and black breast, it is found near the nymph waterfall in the rainy season.</target>
       </trans-unit>
       <trans-unit id="fxu9xQi" resname="Serpents">
         <source>Serpents</source>
-        <target>__Serpents</target>
+        <target>Snakes</target>
       </trans-unit>
       <trans-unit id="AWwvrUR" resname="que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.">
         <source>que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.</source>
-        <target>__que l’on rencontre surtout dans le Sud et le Sud Ouest de Madagascar, et exceptionnellement à Andranolava, non loin de Mahajanga. Dans l’Isalo, vous trouverez ce boa dans le circuit Namaza en saison des pluies.</target>
+        <target>which is found mainly in the South and South West of Madagascar, and exceptionally in Andranolava, not far from Mahajanga. In Isalo, you will find this boa in the Namaza circuit in the rainy season.</target>
       </trans-unit>
       <trans-unit id="rIeUfRK" resname="Espèce">
         <source>Espèce</source>
-        <target>__Espèce</target>
+        <target>Species</target>
       </trans-unit>
       <trans-unit id="BKREGUa" resname="endémique">
         <source>endémique</source>
-        <target>__endémique</target>
+        <target>endemic</target>
       </trans-unit>
       <trans-unit id="9sBz2LN" resname="à Madagascar">
         <source>à Madagascar</source>
-        <target>__à Madagascar</target>
+        <target>in Madagascar</target>
       </trans-unit>
       <trans-unit id="W3_Y.wC" resname="Tous les circuits">
         <source>Tous les circuits</source>
-        <target>__Tous les circuits</target>
+        <target>All circus</target>
       </trans-unit>
       <trans-unit id="cnSFtbL" resname="Toute l’année">
         <source>Toute l’année</source>
-        <target>__Toute l’année</target>
+        <target>All year</target>
       </trans-unit>
       <trans-unit id="SQKSaRC" resname="Circuit Namaza">
         <source>Circuit Namaza</source>
-        <target>__Circuit Namaza</target>
+        <target>Namaza circus</target>
       </trans-unit>
       <trans-unit id="MQV3s4Q" resname="Saison de pluie">
         <source>Saison de pluie</source>
-        <target>__Saison de pluie</target>
+        <target>Rainy season</target>
       </trans-unit>
       <trans-unit id="ldDgA1y" resname="Insecte , il peut être pris pour une fleur&lt;br&gt;Tous les circuits en forêt">
         <source>Insecte , il peut être pris pour une fleur&lt;br&gt;Tous les circuits en forêt</source>
-        <target><![CDATA[__Insecte , il peut être pris pour une fleur<br>Tous les circuits en forêt]]></target>
+        <target><![CDATA[Insect , it can be mistaken for a flower<br>All forest tours]]></target>
       </trans-unit>
       <trans-unit id="9deedsH" resname="Voir egalement">
         <source>Voir egalement</source>
-        <target>__Voir egalement</target>
+        <target>See also</target>
       </trans-unit>
       <trans-unit id="eZ11fIm" resname="Les paysages">
         <source>Les paysages</source>
-        <target>__Les paysages</target>
+        <target>The Landscape</target>
       </trans-unit>
       <trans-unit id="THtRPUg" resname="Les flores">
         <source>Les flores</source>
-        <target>__Les flores</target>
+        <target>The flora</target>
+      </trans-unit>
+      <trans-unit id="08.Ahg." resname="&lt;span&gt;L&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#10;                                        &lt;span&gt;S&lt;/span&gt;&#10;                                        &lt;span&gt; &lt;/span&gt;&#10;                                        &lt;span&gt;F&lt;/span&gt;&#10;                                        &lt;span&gt;L&lt;/span&gt;&#10;                                        &lt;span&gt;O&lt;/span&gt;&#10;                                        &lt;span&gt;R&lt;/span&gt;&#10;                                        &lt;span&gt;E&lt;/span&gt;&#9;&#10;                                        &lt;span&gt;S&lt;/span&gt;">
+        <source>&lt;span&gt;L&lt;/span&gt;
+                                        &lt;span&gt;E&lt;/span&gt;
+                                        &lt;span&gt;S&lt;/span&gt;
+                                        &lt;span&gt; &lt;/span&gt;
+                                        &lt;span&gt;F&lt;/span&gt;
+                                        &lt;span&gt;L&lt;/span&gt;
+                                        &lt;span&gt;O&lt;/span&gt;
+                                        &lt;span&gt;R&lt;/span&gt;
+                                        &lt;span&gt;E&lt;/span&gt;	
+                                        &lt;span&gt;S&lt;/span&gt;</source>
+        <target><![CDATA[__<span>L</span>
+                                        <span>E</span>
+                                        <span>S</span>
+                                        <span> </span>
+                                        <span>F</span>
+                                        <span>L</span>
+                                        <span>O</span>
+                                        <span>R</span>
+                                        <span>E</span>	
+                                        <span>S</span>]]></target>
+      </trans-unit>
+      <trans-unit id="89vnL4D" resname="La flore du parc national Isalo est également unique au monde,il compte plus de">
+        <source>La flore du parc national Isalo est également unique au monde,il compte plus de</source>
+        <target>__La flore du parc national Isalo est également unique au monde,il compte plus de</target>
+      </trans-unit>
+      <trans-unit id="13pLGp0" resname="400 espèces floristiques.">
+        <source>400 espèces floristiques.</source>
+        <target>__400 espèces floristiques.</target>
+      </trans-unit>
+      <trans-unit id="MzxAEC." resname="Beaucoup d’entre elles sont endémiques de Madagascar comme le Pachypodium rosulatum, famille des Apocynaceae, le Catharantus ovalis qui est une plante médicinale que l’on ne trouve nulle part ailleurs dans le monde.">
+        <source>Beaucoup d’entre elles sont endémiques de Madagascar comme le Pachypodium rosulatum, famille des Apocynaceae, le Catharantus ovalis qui est une plante médicinale que l’on ne trouve nulle part ailleurs dans le monde.</source>
+        <target>__Beaucoup d’entre elles sont endémiques de Madagascar comme le Pachypodium rosulatum, famille des Apocynaceae, le Catharantus ovalis qui est une plante médicinale que l’on ne trouve nulle part ailleurs dans le monde.</target>
+      </trans-unit>
+      <trans-unit id="X80ARAW" resname="La savane de l’Isalo est colonisée par des palmiers typiques de cette région : le Bismarkia nobilis, « Satrana » qui résiste au feu.">
+        <source>La savane de l’Isalo est colonisée par des palmiers typiques de cette région : le Bismarkia nobilis, « Satrana » qui résiste au feu.</source>
+        <target>__La savane de l’Isalo est colonisée par des palmiers typiques de cette région : le Bismarkia nobilis, « Satrana » qui résiste au feu.</target>
+      </trans-unit>
+      <trans-unit id="ZLJyLzJ" resname="Les meilleurs flore de l’Isalo">
+        <source>Les meilleurs flore de l’Isalo</source>
+        <target>__Les meilleurs flore de l’Isalo</target>
+      </trans-unit>
+      <trans-unit id="bUtj0OM" resname="Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.">
+        <source>Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.</source>
+        <target>__Le Vontaka ou Pachypodium rosulatum de la famille des Apocynaceae. Endémique de Madagascar, le Vontaka vit sur les rochers du circuit de la Piscine naturelle toute l’année.</target>
+      </trans-unit>
+      <trans-unit id="60V9cYK" resname="L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.">
+        <source>L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.</source>
+        <target>__L’Aloes isaloensis de la famille des Aloaceae est un aloès endémique malgache. Il pousse sur les rochers de la piscine naturelle toute l’année.</target>
+      </trans-unit>
+      <trans-unit id="8F7t5ak" resname="Le Bismarkia nobilis">
+        <source>Le Bismarkia nobilis</source>
+        <target>__Le Bismarkia nobilis</target>
+      </trans-unit>
+      <trans-unit id="VwQcqsY" resname="Le Bismarkia nobilis, de son nom malgache">
+        <source>Le Bismarkia nobilis, de son nom malgache</source>
+        <target>__Le Bismarkia nobilis, de son nom malgache</target>
+      </trans-unit>
+      <trans-unit id="icAeZHQ" resname="C’est un palmier typique de l’Isalo qui a la particularité de">
+        <source>C’est un palmier typique de l’Isalo qui a la particularité de</source>
+        <target>__C’est un palmier typique de l’Isalo qui a la particularité de</target>
+      </trans-unit>
+      <trans-unit id="pIjRFC8" resname="Ses branches sont utilisées par les villageois en sparterie, industrie de l’alfa, une fibre végétale dure.">
+        <source>Ses branches sont utilisées par les villageois en sparterie, industrie de l’alfa, une fibre végétale dure.</source>
+        <target>__Ses branches sont utilisées par les villageois en sparterie, industrie de l’alfa, une fibre végétale dure.</target>
+      </trans-unit>
+      <trans-unit id="BEFxIIP" resname="Les faune">
+        <source>Les faune</source>
+        <target>__Les faune</target>
       </trans-unit>
     </body>
   </file>

@@ -27,17 +27,17 @@
                 <div class="outer w-100">
                     <div class="inner w-100">           
                         <ul data-breakpoint="1025" class="flexnav d-lg-flex d-block justify-content-around w-100">
-                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#accueil"><span data-hover="Accueil">{% trans %}Accueil{% endtrans %}</span></a></li>  
-                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#decouvrir"><span data-hover="Découvrir">{% trans %}Découvrir{% endtrans %}</span></a></li>  
-                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#specificite"><span data-hover="Spécificités">{% trans %}Spécificités{% endtrans %}</span></a>
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#accueil"><span data-hover="{% trans %}Accueil{% endtrans %}">{% trans %}Accueil{% endtrans %}</span></a></li>  
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#apropos"><span data-hover="{% trans %}A propos{% endtrans %}">{% trans %}A propos{% endtrans %}</span></a></li>  
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#specificite"><span data-hover="{% trans %}Spécificités{% endtrans %}">{% trans %}Spécificités{% endtrans %}</span></a>
                                 <ul class="p-2 pt-4 shadow-sm">
                                     <li><a class="ajax-link " href="{{path('app_paysage')}}" data-type="page-transition">{% trans %}Paysage{% endtrans %}</a></li>
                                     <li><a class="ajax-link" href="{{path('app_faune')}}" data-type="page-transition">{% trans %}Faune{% endtrans %}</a></li>
                                     <li><a class="ajax-link" href="{{path('app_flore')}}" data-type="page-transition">{% trans %}Flore{% endtrans %}</a></li> 
                                 </ul>
                             </li>                                                  
-                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#hebergement"><span data-hover="Hebergement">{% trans %}Hebergement{% endtrans %}</span></a></li>         
-                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#contact"><span data-hover="Contact">{% trans %}Contact{% endtrans %}</span></a></li>     
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#hebergement"><span data-hover="{% trans %}Hebergement{% endtrans %}">{% trans %}Hebergement{% endtrans %}</span></a></li>         
+                            <li class="link menu-timeline p-0"><a href="https://127.0.0.1:8000/#contact"><span data-hover="{% trans %}Contact{% endtrans %}">{% trans %}Contact{% endtrans %}</span></a></li>     
                         </ul>      
                     </div>
                 </div> 
@@ -78,5 +78,8 @@
             });
     
         });
+    </script>
+    <script>
+    
     </script>
     
