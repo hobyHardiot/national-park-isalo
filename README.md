@@ -34,6 +34,9 @@ This interactive and attractive website for the Disalo National Park showcases t
 ![](public/screenshots/6.png)
 ![](public/screenshots/7.png)
 ![](public/screenshots/8.png)
+![](public/screenshots/9.png)
+![](public/screenshots/10.png)
+![](public/screenshots/11.png)
 
 ### Star 🌟🌟🌟
 If you find this project interesting and would like to follow its progress, please give it a star on GitHub! Your support encourages me and helps others discover this project.
