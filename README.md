@@ -26,7 +26,7 @@ This interactive and attractive website for the Disalo National Park showcases t
 - Helps users navigate the site and find information easily.
 
 ### Screenshots 
-![](public/sreenshots/canyon.png)
+![](public/screenshots/canyon.png)
 
 ### Star 🌟🌟🌟
 If you find this project interesting and would like to follow its progress, please give it a star on GitHub! Your support encourages me and helps others discover this project.
