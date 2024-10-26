@@ -1,4 +1,4 @@
-# Website for the Disalo National Park
+# Website for the Isalo National Park
 
 ## Description
 This interactive and attractive website for the Disalo National Park showcases the park's natural beauty and offers an online booking system for accommodation. It includes galleries, event updates, and a support bot to assist users with their inquiries.
